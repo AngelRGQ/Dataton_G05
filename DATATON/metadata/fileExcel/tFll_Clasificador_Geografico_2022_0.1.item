@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_qr3EENimEfGIe_U50yEn4g" name="tFll_Clasificador_Geografico_2022" dataPackage="_qr3rINimEfGIe_U50yEn4g" Server="Localhost 127.0.0.1" FilePath="C:/DATASET/CODIFICACIÓN_2022.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="2" LimitValue="0" FirstLineCaption="true" SheetName="CODIGOS" firstColumn="2" lastColumn="7" thousandSeparator="','" decimalSeparator="'.'" sheetList="CODIGOS:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_qr3rINimEfGIe_U50yEn4g" name="default" dataManager="_qr3EENimEfGIe_U50yEn4g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_qr3rIdimEfGIe_U50yEn4g" id="_2ZgB0NikEfGIe_U50yEn4g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qr3rItimEfGIe_U50yEn4g" label="DPA_PROVIN" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qr3rI9imEfGIe_U50yEn4g" label="DPA_DESPRO" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qr3rJNimEfGIe_U50yEn4g" label="DPA_CANTON" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qr3rJdimEfGIe_U50yEn4g" label="DPA_DESCAN" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qr3rJtimEfGIe_U50yEn4g" label="DPA_PARROQ" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qr3rJ9imEfGIe_U50yEn4g" label="DPA_DESPAR" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
