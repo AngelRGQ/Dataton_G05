@@ -67,7 +67,7 @@
         "show" : true,
         "field" : "DIRECTORY",
         "name" : "FILE_PATH",
-        "value" : "\"C:/Users/shadi/Downloads/GENIUS_LAB/.metadata\"",
+        "value" : "\"C:/TalendWorkspaceNuevo/.metadata\"",
         "contextMode" : false
       }, {
         "show" : true,
@@ -180,7 +180,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS",
-        "value" : "enc:system.encryption.key.v1:ZJ231R05UkbyfIN71aeMKvtj+gEaDssGzRY4L5GV",
+        "value" : "enc:system.encryption.key.v1:lC0fP9N9ZEZjkGFpUXnwNmTrxHvfSkWIxyaIBdSI",
         "contextMode" : false
       }, {
         "show" : true,
@@ -388,7 +388,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v1:kRXbye3tC1V7fEvTnA1DkVDzP4Df7lXxC6N33pVA",
+        "value" : "enc:system.encryption.key.v1:x4fsSa9GR4Tfv/2lLIkWzWDZixNdda+E30sxA5vY",
         "contextMode" : false
       }, {
         "show" : true,
