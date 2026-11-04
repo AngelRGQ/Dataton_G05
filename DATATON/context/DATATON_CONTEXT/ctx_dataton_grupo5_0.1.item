@@ -9,4 +9,5 @@
   <contextParameter xmi:id="_phdoJtiTEfGlBbYMxLBL7w" comment="" name="FILE_CPV_POBLACION" prompt="FILE_CPV_POBLACION?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/DATASET/"/>
   <contextParameter xmi:id="_phdoJ9iTEfGlBbYMxLBL7w" comment="" name="FILE_CPV_HOGAR" prompt="FILE_CPV_HOGAR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/DATASET/"/>
   <contextParameter xmi:id="_phdoKNiTEfGlBbYMxLBL7w" comment="" name="FILE_CPV_VIVIENDA" prompt="FILE_CPV_VIVIENDA?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/DATASET/"/>
+  <contextParameter xmi:id="_kNFgQNiaEfGlBbYMxLBL7w" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
 </talendfile:ContextType>
