@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_MknaUNi_EfGS4Oy_nGQk2w" name="INEC_NBI_1.1_Pobreza_población_por_cantón" dataPackage="_MknaUdi_EfGS4Oy_nGQk2w" Server="Localhost 127.0.0.1" FilePath="C:/DATASET/INEC_NBI_1_1_g5.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_MknaUdi_EfGS4Oy_nGQk2w" name="default" dataManager="_MknaUNi_EfGS4Oy_nGQk2w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_MknaUti_EfGS4Oy_nGQk2w" id="_vrqSANi-EfGS4Oy_nGQk2w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MknaU9i_EfGS4Oy_nGQk2w" label="provincia" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MknaVNi_EfGS4Oy_nGQk2w" label="canton" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MknaVdi_EfGS4Oy_nGQk2w" label="area" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MknaVti_EfGS4Oy_nGQk2w" label="total_personas" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MknaV9i_EfGS4Oy_nGQk2w" label="no_pobres_hombres" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MknaWNi_EfGS4Oy_nGQk2w" label="no_pobres_mujeres" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MknaWdi_EfGS4Oy_nGQk2w" label="total_no_pobres" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MknaWti_EfGS4Oy_nGQk2w" label="pobres_hombres" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MknaW9i_EfGS4Oy_nGQk2w" label="pobres_mujeres" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MknaXNi_EfGS4Oy_nGQk2w" label="total_pobres" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
