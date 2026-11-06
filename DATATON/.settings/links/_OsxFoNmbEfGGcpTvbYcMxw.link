@@ -1,0 +1,38 @@
+{
+  "itemId" : "_OsxFoNmbEfGGcpTvbYcMxw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_Zs_fQNiSEfGlBbYMxLBL7w",
+    "parameterList" : [ {
+      "id" : "_phdoJNiTEfGlBbYMxLBL7w",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_phdoINiTEfGlBbYMxLBL7w",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_phdoItiTEfGlBbYMxLBL7w",
+      "name" : "DB_PASSWORD"
+    }, {
+      "id" : "_kNFgQNiaEfGlBbYMxLBL7w",
+      "name" : "DB_PORT"
+    }, {
+      "id" : "_phdoIdiTEfGlBbYMxLBL7w",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_phdoJdiTEfGlBbYMxLBL7w",
+      "name" : "ENV_NAME"
+    }, {
+      "id" : "_phdoJ9iTEfGlBbYMxLBL7w",
+      "name" : "FILE_CPV_HOGAR"
+    }, {
+      "id" : "_phdoJtiTEfGlBbYMxLBL7w",
+      "name" : "FILE_CPV_POBLACION"
+    }, {
+      "id" : "_phdoKNiTEfGlBbYMxLBL7w",
+      "name" : "FILE_CPV_VIVIENDA"
+    }, {
+      "id" : "_phdoI9iTEfGlBbYMxLBL7w",
+      "name" : "LOAD_SOURCE_TAG"
+    } ]
+  } ]
+}

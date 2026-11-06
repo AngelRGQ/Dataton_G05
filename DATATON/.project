@@ -9,4 +9,16 @@
 	<natures>
 		<nature>org.talend.core.talendnature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>.reporte analisis pobreza canton-20261106-1143-00035.pdf</name>
+			<type>1</type>
+			<location>C:/Users/shadi/Downloads/reportedataton/reporte analisis pobreza canton-20261106-1143-00035.pdf</location>
+		</link>
+		<link>
+			<name>.reporte analisis pobreza canton-20261106-1144-00014.pdf</name>
+			<type>1</type>
+			<location>C:/Users/shadi/Downloads/reportedataton/reporte analisis pobreza canton-20261106-1144-00014.pdf</location>
+		</link>
+	</linkedResources>
 </projectDescription>

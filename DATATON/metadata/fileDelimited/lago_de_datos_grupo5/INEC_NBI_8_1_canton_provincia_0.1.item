@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendMetadata:DelimitedFileConnection xmi:id="_pHkaQNi7EfGS4Oy_nGQk2w" name="INEC_NBI_8.1_canton_provincia" dataPackage="_pHkaQdi7EfGS4Oy_nGQk2w" Server="Localhost 127.0.0.1" FilePath="C:/DATASET/INEC_NBI_8_1_g5.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="0" FirstLineCaption="true"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_pHkaQNi7EfGS4Oy_nGQk2w" name="INEC_NBI_8.1_canton_provincia" supplierDependency="_DZftENoIEfGjVb1XdXSgUA" dataPackage="_pHkaQdi7EfGS4Oy_nGQk2w" Server="Localhost 127.0.0.1" FilePath="C:/DATASET/INEC_NBI_8_1_g5.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="0" FirstLineCaption="true"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_pHkaQdi7EfGS4Oy_nGQk2w" name="default" dataManager="_pHkaQNi7EfGS4Oy_nGQk2w">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_pHkaQti7EfGS4Oy_nGQk2w" id="_D_JBANi5EfGS4Oy_nGQk2w" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pHkaQ9i7EfGS4Oy_nGQk2w" label="provincia" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pHkaRNi7EfGS4Oy_nGQk2w" label="canton" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pHkaRdi7EfGS4Oy_nGQk2w" label="area" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pHkaRti7EfGS4Oy_nGQk2w" label="total_hogares" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pHkaR9i7EfGS4Oy_nGQk2w" label="hogares_no_pobres" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pHkaSNi7EfGS4Oy_nGQk2w" label="hogares_pobres" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pHkaQ9i7EfGS4Oy_nGQk2w" id="provincia" label="provincia" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_DZgUINoIEfGjVb1XdXSgUA" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pHkaRNi7EfGS4Oy_nGQk2w" id="canton" label="canton" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_DZgUIdoIEfGjVb1XdXSgUA" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pHkaRdi7EfGS4Oy_nGQk2w" id="area" label="area" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_DZgUItoIEfGjVb1XdXSgUA" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pHkaRti7EfGS4Oy_nGQk2w" id="total_hogares" label="total_hogares" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_DZgUI9oIEfGjVb1XdXSgUA" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pHkaR9i7EfGS4Oy_nGQk2w" id="hogares_no_pobres" label="hogares_no_pobres" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_DZgUJNoIEfGjVb1XdXSgUA" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pHkaSNi7EfGS4Oy_nGQk2w" id="hogares_pobres" label="hogares_pobres" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_DZgUJdoIEfGjVb1XdXSgUA" tag="Content Type" value="Interval"/>
+      </feature>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_DZftENoIEfGjVb1XdXSgUA" kind="Usage" supplier="_pHkaQNi7EfGS4Oy_nGQk2w">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/Analisis_INEC_NBI_8_1_canton_provincia_0.1.ana#_Z6UrINoHEfGjVb1XdXSgUA"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>

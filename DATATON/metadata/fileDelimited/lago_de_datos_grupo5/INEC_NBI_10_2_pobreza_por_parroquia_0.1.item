@@ -1,20 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendMetadata:DelimitedFileConnection xmi:id="_Rd558Ni-EfGS4Oy_nGQk2w" name="INEC_NBI_10.2_pobreza_por_parroquia" dataPackage="_Rd558di-EfGS4Oy_nGQk2w" Server="Localhost 127.0.0.1" FilePath="C:/DATASET/INEC_NBI_10_2_g5.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Rd558Ni-EfGS4Oy_nGQk2w" name="INEC_NBI_10.2_pobreza_por_parroquia" supplierDependency="_v6S-6doGEfGjVb1XdXSgUA" dataPackage="_Rd558di-EfGS4Oy_nGQk2w" Server="Localhost 127.0.0.1" FilePath="C:/DATASET/INEC_NBI_10_2_g5.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_Rd558di-EfGS4Oy_nGQk2w" name="default" dataManager="_Rd558Ni-EfGS4Oy_nGQk2w">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Rd558ti-EfGS4Oy_nGQk2w" id="_UsOFgNi9EfGS4Oy_nGQk2w" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd5589i-EfGS4Oy_nGQk2w" label="provincia" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd559Ni-EfGS4Oy_nGQk2w" label="canton" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd559di-EfGS4Oy_nGQk2w" label="parroquia" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd559ti-EfGS4Oy_nGQk2w" label="area" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd5599i-EfGS4Oy_nGQk2w" label="total_hogares" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd55-Ni-EfGS4Oy_nGQk2w" label="hogares_no_pobres" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd55-di-EfGS4Oy_nGQk2w" label="pobre_solo_dependencia_economica" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd55-ti-EfGS4Oy_nGQk2w" label="pobre_solo_inasistencia_escolar" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd55-9i-EfGS4Oy_nGQk2w" label="pobre_solo_vivienda_inadecuada" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd55_Ni-EfGS4Oy_nGQk2w" label="pobre_solo_sin_servicios_basicos" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd55_di-EfGS4Oy_nGQk2w" label="pobre_solo_hacinamiento" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd55_ti-EfGS4Oy_nGQk2w" label="pobre_dos_o_mas_componentes" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd5589i-EfGS4Oy_nGQk2w" id="provincia" label="provincia" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v6Tl8NoGEfGjVb1XdXSgUA" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd559Ni-EfGS4Oy_nGQk2w" id="canton" label="canton" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v6TmA9oGEfGjVb1XdXSgUA" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd559di-EfGS4Oy_nGQk2w" id="parroquia" label="parroquia" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v6TmFtoGEfGjVb1XdXSgUA" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd559ti-EfGS4Oy_nGQk2w" id="area" label="area" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v6TmKdoGEfGjVb1XdXSgUA" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd5599i-EfGS4Oy_nGQk2w" id="total_hogares" label="total_hogares" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v6TmNNoGEfGjVb1XdXSgUA" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd55-Ni-EfGS4Oy_nGQk2w" id="hogares_no_pobres" label="hogares_no_pobres" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v6TmP9oGEfGjVb1XdXSgUA" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd55-di-EfGS4Oy_nGQk2w" id="pobre_solo_dependencia_economica" label="pobre_solo_dependencia_economica" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v6TmStoGEfGjVb1XdXSgUA" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd55-ti-EfGS4Oy_nGQk2w" id="pobre_solo_inasistencia_escolar" label="pobre_solo_inasistencia_escolar" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v6TmVdoGEfGjVb1XdXSgUA" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd55-9i-EfGS4Oy_nGQk2w" id="pobre_solo_vivienda_inadecuada" label="pobre_solo_vivienda_inadecuada" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v6TmYNoGEfGjVb1XdXSgUA" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd55_Ni-EfGS4Oy_nGQk2w" id="pobre_solo_sin_servicios_basicos" label="pobre_solo_sin_servicios_basicos" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v6Tma9oGEfGjVb1XdXSgUA" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd55_di-EfGS4Oy_nGQk2w" id="pobre_solo_hacinamiento" label="pobre_solo_hacinamiento" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v6TmdtoGEfGjVb1XdXSgUA" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rd55_ti-EfGS4Oy_nGQk2w" id="pobre_dos_o_mas_componentes" label="pobre_dos_o_mas_componentes" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v6TmgdoGEfGjVb1XdXSgUA" tag="Content Type" value="Interval"/>
+      </feature>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_v6S-6doGEfGjVb1XdXSgUA" kind="Usage" supplier="_Rd558Ni-EfGS4Oy_nGQk2w">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/Analisis_INEC_NBI_10_2_pobreza_por_parroquia_0.1.ana#_HcZMsNoGEfGjVb1XdXSgUA"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>

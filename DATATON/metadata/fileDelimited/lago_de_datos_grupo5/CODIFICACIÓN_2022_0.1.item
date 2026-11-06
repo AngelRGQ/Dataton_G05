@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_M3-u0NoKEfGjVb1XdXSgUA" name="CODIFICACIÓN_2022" supplierDependency="_dj19QNoMEfGjVb1XdXSgUA" dataPackage="_M3-u0doKEfGjVb1XdXSgUA" Server="Localhost 127.0.0.1" FilePath="C:/DATASET/CODIFICACIÓN_2022.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_M3-u0doKEfGjVb1XdXSgUA" name="default" dataManager="_M3-u0NoKEfGjVb1XdXSgUA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_M3_V4NoKEfGjVb1XdXSgUA" id="_eliyMNoJEfGjVb1XdXSgUA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M3_V4doKEfGjVb1XdXSgUA" id="DPA_PROVIN" label="DPA_PROVIN" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_dj19QdoMEfGjVb1XdXSgUA" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M3_V4toKEfGjVb1XdXSgUA" id="DPA_DESPRO" label="DPA_DESPRO" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_dj2kUNoMEfGjVb1XdXSgUA" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M3_V49oKEfGjVb1XdXSgUA" id="DPA_CANTON" label="DPA_CANTON" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_dj2kY9oMEfGjVb1XdXSgUA" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M3_V5NoKEfGjVb1XdXSgUA" id="DPA_DESCAN" label="DPA_DESCAN" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_dj2kdtoMEfGjVb1XdXSgUA" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M3_V5doKEfGjVb1XdXSgUA" id="DPA_PARROQ" label="DPA_PARROQ" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_dj2kidoMEfGjVb1XdXSgUA" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_M3_V5toKEfGjVb1XdXSgUA" id="DPA_DESPAR" label="DPA_DESPAR" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_dj2knNoMEfGjVb1XdXSgUA" tag="Content Type" value="Nominal"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_dj19QNoMEfGjVb1XdXSgUA" kind="Usage" supplier="_M3-u0NoKEfGjVb1XdXSgUA">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/Analisis_clasificador_geo_gr5_0.1.ana#_5eFQANoLEfGjVb1XdXSgUA"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>
