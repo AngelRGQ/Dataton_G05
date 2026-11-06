@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_D0xc0dmlEfGXnuIHbQTDYA" name="perfilado_cpv_vivienda_canton_g5" creationDate="2026-11-06T00:43:57.469-0500" defaultContext="Default">
+    <clientDependency href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_MsBKXNmlEfGXnuIHbQTDYA"/>
+    <taggedValue xmi:id="_D0xc0tmlEfGXnuIHbQTDYA" tag="Status" value="Draft"/>
+    <taggedValue xmi:id="_D0xc09mlEfGXnuIHbQTDYA" tag="Author" value="angel.guanio+talend@trial.ohj33qzesn2rnlm.us.qlikcloud.com"/>
+    <taggedValue xmi:id="_D0xc1NmlEfGXnuIHbQTDYA" tag="Purpose" value="Evaluar la calidad de los datos de vivienda del Censo 2022"/>
+    <taggedValue xmi:id="_D0xc1dmlEfGXnuIHbQTDYA" tag="Description" value="Analizar la completitud y distribución de valores de las columnas de vivienda"/>
+    <taggedValue xmi:id="_D0xc1tmlEfGXnuIHbQTDYA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_IRW84dmlEfGXnuIHbQTDYA" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_IRW84tmlEfGXnuIHbQTDYA" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <taggedValue xmi:id="_IRW849mlEfGXnuIHbQTDYA" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <taggedValue xmi:id="_IRW85NmlEfGXnuIHbQTDYA" tag="Is Use Sample Data" value="true"/>
+    <context xmi:id="_D0xc19mlEfGXnuIHbQTDYA">
+      <connection href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvwNiaEfGlBbYMxLBL7w"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvw9iaEfGlBbYMxLBL7w"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvxNiaEfGlBbYMxLBL7w"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvxdiaEfGlBbYMxLBL7w"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvxtiaEfGlBbYMxLBL7w"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvx9iaEfGlBbYMxLBL7w"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvyNiaEfGlBbYMxLBL7w"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvydiaEfGlBbYMxLBL7w"/>
+    </context>
+    <results xmi:id="_D0xc2NmlEfGXnuIHbQTDYA">
+      <resultMetadata xmi:id="_D0xc2dmlEfGXnuIHbQTDYA" executionDate="2026-11-06T00:53:59.719-0500" executionDuration="3136" message="" executionNumber="14" lastRunOk="true" lastExecutionNumberOk="2"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_MsBKUNmlEfGXnuIHbQTDYA" count="50" computed="true">
+        <parameters xmi:id="_MsBKUdmlEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvw9iaEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_M2O2QNmlEfGXnuIHbQTDYA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_M2O2QdmlEfGXnuIHbQTDYA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_M2O2QtmlEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_M2O2Q9mlEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_MsBKUtmlEfGXnuIHbQTDYA" count="50" computed="true">
+        <parameters xmi:id="_MsBKU9mlEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvw9iaEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <builtInIndicatorDefinition xmi:id="_M23vcNmlEfGXnuIHbQTDYA" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_M23vcdmlEfGXnuIHbQTDYA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_M23vctmlEfGXnuIHbQTDYA" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_M23vc9mlEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_MsBKXtmlEfGXnuIHbQTDYA" count="50" computed="true">
+        <parameters xmi:id="_MsBKX9mlEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvxNiaEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_M4MlINmlEfGXnuIHbQTDYA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_M4MlIdmlEfGXnuIHbQTDYA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_M4MlItmlEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_M4MlI9mlEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_MsBKYNmlEfGXnuIHbQTDYA" count="50" computed="true">
+        <parameters xmi:id="_MsBKYdmlEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvxNiaEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <builtInIndicatorDefinition xmi:id="_M4b1sNmlEfGXnuIHbQTDYA" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_M4b1sdmlEfGXnuIHbQTDYA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_M4b1stmlEfGXnuIHbQTDYA" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_M4b1s9mlEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_MsBKa9mlEfGXnuIHbQTDYA" count="50" computed="true">
+        <parameters xmi:id="_MsBKbNmlEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvxdiaEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_M5sZ8NmlEfGXnuIHbQTDYA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_M5sZ8dmlEfGXnuIHbQTDYA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_M5sZ8tmlEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_M5sZ89mlEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_MsBKbdmlEfGXnuIHbQTDYA" count="50" computed="true">
+        <parameters xmi:id="_MsBKbtmlEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvxdiaEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <builtInIndicatorDefinition xmi:id="_M6AjANmlEfGXnuIHbQTDYA" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_M6AjAdmlEfGXnuIHbQTDYA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_M6AjAtmlEfGXnuIHbQTDYA" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_M6AjA9mlEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_MsBKeNmlEfGXnuIHbQTDYA" count="50" computed="true">
+        <parameters xmi:id="_MsBKedmlEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvxtiaEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_M7eioNmlEfGXnuIHbQTDYA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_M7eiodmlEfGXnuIHbQTDYA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_M7eiotmlEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_M7eio9mlEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_MsBKetmlEfGXnuIHbQTDYA" count="50" computed="true">
+        <parameters xmi:id="_MsBKe9mlEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvxtiaEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <builtInIndicatorDefinition xmi:id="_M7tzMNmlEfGXnuIHbQTDYA" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_M7tzMdmlEfGXnuIHbQTDYA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_M7tzMtmlEfGXnuIHbQTDYA" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_M7tzM9mlEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_MsBKg9mlEfGXnuIHbQTDYA" count="50" computed="true">
+        <parameters xmi:id="_MsBKhNmlEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvx9iaEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_M8yKMNmlEfGXnuIHbQTDYA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_M8yKMdmlEfGXnuIHbQTDYA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_M8yKMtmlEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_M8yKM9mlEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_MsBKhdmlEfGXnuIHbQTDYA" count="50" computed="true">
+        <parameters xmi:id="_MsBKhtmlEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvx9iaEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <builtInIndicatorDefinition xmi:id="_M9EeENmlEfGXnuIHbQTDYA" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_M9EeEdmlEfGXnuIHbQTDYA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_M9EeEtmlEfGXnuIHbQTDYA" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_M9EeE9mlEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_MsBKjtmlEfGXnuIHbQTDYA" count="50" computed="true">
+        <parameters xmi:id="_MsBKj9mlEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvyNiaEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_NCZqANmlEfGXnuIHbQTDYA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_NCZqAdmlEfGXnuIHbQTDYA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_NCZqAtmlEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_NCZqA9mlEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_MsBKkNmlEfGXnuIHbQTDYA" count="50" computed="true">
+        <parameters xmi:id="_MsBKkdmlEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvyNiaEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <builtInIndicatorDefinition xmi:id="_NClQMNmlEfGXnuIHbQTDYA" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_NClQMdmlEfGXnuIHbQTDYA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_NClQMtmlEfGXnuIHbQTDYA" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_NClQM9mlEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_MsBKmdmlEfGXnuIHbQTDYA" count="50" computed="true">
+        <parameters xmi:id="_MsBKmtmlEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvydiaEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_NDVeINmlEfGXnuIHbQTDYA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_NDVeIdmlEfGXnuIHbQTDYA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_NDVeItmlEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_NDVeI9mlEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_MsBKm9mlEfGXnuIHbQTDYA" count="50" computed="true">
+        <parameters xmi:id="_MsBKnNmlEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Vivienda_Canton_0.1.item#_HiSvydiaEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <builtInIndicatorDefinition xmi:id="_NDhEUNmlEfGXnuIHbQTDYA" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_NDhEUdmlEfGXnuIHbQTDYA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_NDhEUtmlEfGXnuIHbQTDYA" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_NDhEU9mlEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+    </results>
+    <parameters xmi:id="_D0xc2tmlEfGXnuIHbQTDYA" dataFilter="_IRW85dmlEfGXnuIHbQTDYA" analysisType="Multiple Column Analysis" executionLanguage="Java" storeData="false"/>
+    <contextType xmi:id="_IRW84NmlEfGXnuIHbQTDYA" confirmationNeeded="false" hide="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_IRW85dmlEfGXnuIHbQTDYA" name="perfilado_cpv_vivienda_canton_g5">
+    <ranges xmi:id="_IRW85tmlEfGXnuIHbQTDYA">
+      <expressions xmi:id="_IRW859mlEfGXnuIHbQTDYA">
+        <expression xsi:type="relational:TdExpression" xmi:id="_IRW86NmlEfGXnuIHbQTDYA" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>
