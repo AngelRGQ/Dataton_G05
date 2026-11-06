@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_qE7JkNmbEfGXnuIHbQTDYA" name="perfilado_cpv_poblacion_canton_g5" supplierDependency="_XAybMNmkEfGXnuIHbQTDYA" creationDate="2026-11-05T23:36:39.195-0500" defaultContext="Default">
+    <clientDependency href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_iidLwNmdEfGXnuIHbQTDYA"/>
+    <taggedValue xmi:id="_qE7JkdmbEfGXnuIHbQTDYA" tag="Status" value="Draft"/>
+    <taggedValue xmi:id="_qE7JktmbEfGXnuIHbQTDYA" tag="Author" value="angel.guanio+talend@trial.ohj33qzesn2rnlm.us.qlikcloud.com"/>
+    <taggedValue xmi:id="_qE7Jk9mbEfGXnuIHbQTDYA" tag="Purpose" value="Analizar la calidad de los datos de población del Censo 2022"/>
+    <taggedValue xmi:id="_qE7JlNmbEfGXnuIHbQTDYA" tag="Description" value="Identificar valores completos, vacíos, distintos y distribución de los datos cantonales"/>
+    <taggedValue xmi:id="_qE7JldmbEfGXnuIHbQTDYA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_2BCWQdmbEfGXnuIHbQTDYA" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_2BCWQtmbEfGXnuIHbQTDYA" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <taggedValue xmi:id="_2BCWQ9mbEfGXnuIHbQTDYA" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <taggedValue xmi:id="_2BDkYNmbEfGXnuIHbQTDYA" tag="Is Use Sample Data" value="false"/>
+    <context xmi:id="_qE7JltmbEfGXnuIHbQTDYA">
+      <connection href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGINiZEfGlBbYMxLBL7w"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGI9iZEfGlBbYMxLBL7w"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJNiZEfGlBbYMxLBL7w"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJdiZEfGlBbYMxLBL7w"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJtiZEfGlBbYMxLBL7w"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJ9iZEfGlBbYMxLBL7w"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGKNiZEfGlBbYMxLBL7w"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGKdiZEfGlBbYMxLBL7w"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGKtiZEfGlBbYMxLBL7w"/>
+    </context>
+    <results xmi:id="_qE7Jl9mbEfGXnuIHbQTDYA">
+      <resultMetadata xmi:id="_qE7JmNmbEfGXnuIHbQTDYA" executionDate="2026-11-06T00:36:12.321-0500" executionDuration="793223" message="" executionNumber="18" lastRunOk="true" lastExecutionNumberOk="9"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_HJG4MNmhEfGXnuIHbQTDYA" count="16938986" computed="true">
+        <parameters xmi:id="_HJG4MdmhEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGI9iZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_HWU00NmhEfGXnuIHbQTDYA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_HWU00dmhEfGXnuIHbQTDYA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_HWVb4NmhEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_HWVb4dmhEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_HJG4MtmhEfGXnuIHbQTDYA" count="16938986" computed="true">
+        <parameters xmi:id="_HJG4M9mhEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGI9iZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <builtInIndicatorDefinition xmi:id="_HWyu4NmhEfGXnuIHbQTDYA" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_HWyu4dmhEfGXnuIHbQTDYA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_HWyu4tmhEfGXnuIHbQTDYA" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_HWyu49mhEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_HJG4NNmhEfGXnuIHbQTDYA" count="16938986" computed="true" distinctValueCount="24">
+        <parameters xmi:id="_HJG4NdmhEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGI9iZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_HXFp0NmhEfGXnuIHbQTDYA" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_HXFp0dmhEfGXnuIHbQTDYA" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_HXFp0tmhEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_HXFp09mhEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_HJG4NtmhEfGXnuIHbQTDYA" count="16938986" computed="true" uniqueValueCount="0">
+        <parameters xmi:id="_HJG4N9mhEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGI9iZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_HXaZ8NmhEfGXnuIHbQTDYA" name="Unique Count" label="Unique Count">
+          <taggedValue xmi:id="_HXaZ8dmhEfGXnuIHbQTDYA" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
+          <taggedValue xmi:id="_HXaZ8tmhEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of unique records"/>
+          <sqlGenericExpression xmi:id="_HXaZ89mhEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_HXaZ9NmhEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_HXaZ9dmhEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_HXaZ9tmhEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_HXaZ99mhEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_HXaZ-NmhEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_HXaZ-dmhEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_jqI90NmjEfGXnuIHbQTDYA" count="16938986" computed="true">
+        <parameters xmi:id="_jqI90dmjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJNiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_jsjYoNmjEfGXnuIHbQTDYA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_jsjYodmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_jsjYotmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_jsjYo9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_jqI90tmjEfGXnuIHbQTDYA" count="16938986" computed="true">
+        <parameters xmi:id="_jqI909mjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJNiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <builtInIndicatorDefinition xmi:id="_jtM44NmjEfGXnuIHbQTDYA" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_jtM44dmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_jtM44tmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_jtM449mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_zLS-kNmjEfGXnuIHbQTDYA" count="16938986" computed="true" distinctValueCount="27">
+        <parameters xmi:id="_zLS-kdmjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJNiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_zO_LwNmjEfGXnuIHbQTDYA" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_zO_LwdmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_zO_LwtmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_zO_Lw9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_zLS-ktmjEfGXnuIHbQTDYA" count="16938986" computed="true" uniqueValueCount="0">
+        <parameters xmi:id="_zLS-k9mjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJNiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_zPKK4NmjEfGXnuIHbQTDYA" name="Unique Count" label="Unique Count">
+          <taggedValue xmi:id="_zPKK4dmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
+          <taggedValue xmi:id="_zPKK4tmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of unique records"/>
+          <sqlGenericExpression xmi:id="_zPKK49mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_zPKK5NmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_zPKK5dmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_zPKK5tmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_zPKK59mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_zPKK6NmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_zPKK6dmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_nns_kNmjEfGXnuIHbQTDYA" count="16938986" computed="true">
+        <parameters xmi:id="_nns_kdmjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJdiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_nqOIENmjEfGXnuIHbQTDYA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_nqOIEdmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_nqOIEtmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_nqOIE9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_nns_ktmjEfGXnuIHbQTDYA" count="16938986" computed="true">
+        <parameters xmi:id="_nns_k9mjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJdiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <builtInIndicatorDefinition xmi:id="_nqi4MNmjEfGXnuIHbQTDYA" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_nqi4MdmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_nqi4MtmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_nqi4M9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_zLS-lNmjEfGXnuIHbQTDYA" count="16938986" computed="true" distinctValueCount="1042040">
+        <parameters xmi:id="_zLS-ldmjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJdiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_zPRfoNmjEfGXnuIHbQTDYA" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_zPRfodmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_zPRfotmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_zPRfo9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_zLS-ltmjEfGXnuIHbQTDYA" count="16938986" computed="true" uniqueValueCount="56790">
+        <parameters xmi:id="_zLS-l9mjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJdiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_zPapkNmjEfGXnuIHbQTDYA" name="Unique Count" label="Unique Count">
+          <taggedValue xmi:id="_zPb3sNmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
+          <taggedValue xmi:id="_zPb3sdmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of unique records"/>
+          <sqlGenericExpression xmi:id="_zPb3stmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_zPb3s9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_zPb3tNmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_zPb3tdmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_zPb3ttmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_zPb3t9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_zPb3uNmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_s6OCENmjEfGXnuIHbQTDYA" count="16938986" computed="true">
+        <parameters xmi:id="_s6OCEdmjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJtiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_s9hNsNmjEfGXnuIHbQTDYA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_s9hNsdmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_s9hNstmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_s9hNs9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_s6OCEtmjEfGXnuIHbQTDYA" count="16938986" computed="true">
+        <parameters xmi:id="_s6OCE9mjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJtiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <builtInIndicatorDefinition xmi:id="_s9upENmjEfGXnuIHbQTDYA" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_s9upEdmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_s9upEtmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_s9upE9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_zLS-mNmjEfGXnuIHbQTDYA" count="16938986" computed="true" distinctValueCount="10">
+        <parameters xmi:id="_zLS-mdmjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJtiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_zPlosNmjEfGXnuIHbQTDYA" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_zPlosdmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_zPlostmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_zPlos9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_zLS-mtmjEfGXnuIHbQTDYA" count="16938986" computed="true" uniqueValueCount="0">
+        <parameters xmi:id="_zLS-m9mjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJtiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_zPvZsNmjEfGXnuIHbQTDYA" name="Unique Count" label="Unique Count">
+          <taggedValue xmi:id="_zPvZsdmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
+          <taggedValue xmi:id="_zPvZstmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of unique records"/>
+          <sqlGenericExpression xmi:id="_zPvZs9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_zPvZtNmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_zPvZtdmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_zPvZttmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_zPvZt9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_zPvZuNmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_zPvZudmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_s6OCFNmjEfGXnuIHbQTDYA" count="16938986" computed="true">
+        <parameters xmi:id="_s6OCFdmjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJ9iZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_s9190NmjEfGXnuIHbQTDYA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_s9190dmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_s9190tmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_s91909mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_s6OCFtmjEfGXnuIHbQTDYA" count="16938986" computed="true">
+        <parameters xmi:id="_s6OCF9mjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJ9iZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <builtInIndicatorDefinition xmi:id="_s995oNmjEfGXnuIHbQTDYA" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_s995odmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_s995otmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_s995o9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_zLS-nNmjEfGXnuIHbQTDYA" count="16938986" computed="true" distinctValueCount="7196">
+        <parameters xmi:id="_zLS-ndmjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJ9iZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_zP5xwNmjEfGXnuIHbQTDYA" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_zP5xwdmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_zP5xwtmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_zP5xw9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_zLS-ntmjEfGXnuIHbQTDYA" count="16938986" computed="true" uniqueValueCount="2117">
+        <parameters xmi:id="_zLS-n9mjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGJ9iZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_zQC7sNmjEfGXnuIHbQTDYA" name="Unique Count" label="Unique Count">
+          <taggedValue xmi:id="_zQC7sdmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
+          <taggedValue xmi:id="_zQC7stmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of unique records"/>
+          <sqlGenericExpression xmi:id="_zQC7s9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_zQC7tNmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_zQC7tdmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_zQC7ttmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_zQC7t9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_zQC7uNmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_zQC7udmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_s6OCGNmjEfGXnuIHbQTDYA" count="16938986" computed="true">
+        <parameters xmi:id="_s6OCGdmjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGKNiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_s-GcgNmjEfGXnuIHbQTDYA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_s-GcgdmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_s-GcgtmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_s-Gcg9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_s6OCGtmjEfGXnuIHbQTDYA" count="16938986" computed="true">
+        <parameters xmi:id="_s6OCG9mjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGKNiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <builtInIndicatorDefinition xmi:id="_s-NKMNmjEfGXnuIHbQTDYA" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_s-NKMdmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_s-NKMtmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_s-NKM9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_zLS-oNmjEfGXnuIHbQTDYA" count="16938986" computed="true" distinctValueCount="13">
+        <parameters xmi:id="_zLS-odmjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGKNiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_zQLekNmjEfGXnuIHbQTDYA" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_zQLekdmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_zQLektmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_zQLek9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_zLS-otmjEfGXnuIHbQTDYA" count="16938986" computed="true" uniqueValueCount="0">
+        <parameters xmi:id="_zLS-o9mjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGKNiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_zQUogNmjEfGXnuIHbQTDYA" name="Unique Count" label="Unique Count">
+          <taggedValue xmi:id="_zQUogdmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
+          <taggedValue xmi:id="_zQUogtmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of unique records"/>
+          <sqlGenericExpression xmi:id="_zQUog9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_zQUohNmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_zQUohdmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_zQUohtmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_zQUoh9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_zQUoiNmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_zQUoidmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_s6OCHNmjEfGXnuIHbQTDYA" count="16938986" computed="true">
+        <parameters xmi:id="_s6OCHdmjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGKdiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_s-Ue8NmjEfGXnuIHbQTDYA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_s-Ue8dmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_s-Ue8tmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_s-Ue89mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_s6OCHtmjEfGXnuIHbQTDYA" count="16938986" computed="true">
+        <parameters xmi:id="_s6OCH9mjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGKdiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <builtInIndicatorDefinition xmi:id="_s-cawNmjEfGXnuIHbQTDYA" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_s-cawdmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_s-cawtmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_s-caw9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_zLS-pNmjEfGXnuIHbQTDYA" count="16938986" computed="true" distinctValueCount="2">
+        <parameters xmi:id="_zLS-pdmjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGKdiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_zQfAkNmjEfGXnuIHbQTDYA" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_zQfAkdmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_zQfAktmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_zQfAk9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_zLS-ptmjEfGXnuIHbQTDYA" count="16938986" computed="true" uniqueValueCount="0">
+        <parameters xmi:id="_zLS-p9mjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGKdiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_zQnjcNmjEfGXnuIHbQTDYA" name="Unique Count" label="Unique Count">
+          <taggedValue xmi:id="_zQnjcdmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
+          <taggedValue xmi:id="_zQnjctmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of unique records"/>
+          <sqlGenericExpression xmi:id="_zQnjc9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_zQnjdNmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_zQnjddmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_zQnjdtmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_zQnjd9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_zQnjeNmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_zQnjedmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_s6OCINmjEfGXnuIHbQTDYA" count="16938986" computed="true">
+        <parameters xmi:id="_s6OCIdmjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGKtiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_s-jvgNmjEfGXnuIHbQTDYA" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_s-jvgdmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_s-jvgtmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_s-jvg9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_s6OCItmjEfGXnuIHbQTDYA" count="16938986" computed="true">
+        <parameters xmi:id="_s6OCI9mjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGKtiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <builtInIndicatorDefinition xmi:id="_s-pPENmjEfGXnuIHbQTDYA" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_s-pPEdmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_s-pPEtmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_s-pPE9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_zLS-qNmjEfGXnuIHbQTDYA" count="16938986" computed="true" distinctValueCount="120">
+        <parameters xmi:id="_zLS-qdmjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGKtiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_zQwtYNmjEfGXnuIHbQTDYA" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_zQwtYdmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_zQwtYtmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_zQwtY9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_zLS-qtmjEfGXnuIHbQTDYA" count="16938986" computed="true" uniqueValueCount="4">
+        <parameters xmi:id="_zLS-q9mjEfGXnuIHbQTDYA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CPV_2022_Población_Canton_0.1.item#_xhDGKtiZEfGlBbYMxLBL7w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_zQ6eYNmjEfGXnuIHbQTDYA" name="Unique Count" label="Unique Count">
+          <taggedValue xmi:id="_zQ6eYdmjEfGXnuIHbQTDYA" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
+          <taggedValue xmi:id="_zQ6eYtmjEfGXnuIHbQTDYA" tag="Purpose" value="evaluates the number of unique records"/>
+          <sqlGenericExpression xmi:id="_zQ6eY9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_zQ6eZNmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_zQ6eZdmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_zQ6eZtmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount = 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_zQ6eZ9mjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_zQ6eaNmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_zQ6eadmjEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
+        </builtInIndicatorDefinition>
+      </indicators>
+    </results>
+    <parameters xmi:id="_qE7JmdmbEfGXnuIHbQTDYA" dataFilter="_2BGAoNmbEfGXnuIHbQTDYA" analysisType="Multiple Column Analysis" executionLanguage="Java" storeData="false"/>
+    <contextType xmi:id="_2BCWQNmbEfGXnuIHbQTDYA" confirmationNeeded="false" hide="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_2BGAoNmbEfGXnuIHbQTDYA" name="perfilado_cpv_poblacion_canton_g5">
+    <ranges xmi:id="_2BGAodmbEfGXnuIHbQTDYA">
+      <expressions xmi:id="_2BGAotmbEfGXnuIHbQTDYA">
+        <expression xsi:type="relational:TdExpression" xmi:id="_2BGAo9mbEfGXnuIHbQTDYA" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_XAybMNmkEfGXnuIHbQTDYA" kind="Usage" supplier="_qE7JkNmbEfGXnuIHbQTDYA">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/perfilado_cpv_poblacion_canton_g5_0.1.rep#_XAx0INmkEfGXnuIHbQTDYA"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

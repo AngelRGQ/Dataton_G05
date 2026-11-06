@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_k9rvENoAEfGo9sFIfF8LhA" name="Analisis_tFll_Clasificador_Geografico_2022" creationDate="2026-11-06T11:39:04.064-0500" defaultContext="Default">
+    <taggedValue xmi:id="_k9rvEdoAEfGo9sFIfF8LhA" tag="Status" value="Draft"/>
+    <taggedValue xmi:id="_k9rvEtoAEfGo9sFIfF8LhA" tag="Author" value="ariel.chango@trial.hh09z79gjpqie8q.us.qlikcloud.com"/>
+    <taggedValue xmi:id="_k9rvE9oAEfGo9sFIfF8LhA" tag="Purpose" value="Evaluar la estructura, completitud y consistencia de los datos del Clasificador Geográfico del Ecuador 2022."/>
+    <taggedValue xmi:id="_k9rvFNoAEfGo9sFIfF8LhA" tag="Description" value="Análisis de perfilado del Clasificador Geográfico 2022 para identificar valores nulos, registros duplicados y verificar la consistencia de los códigos y nombres de provincias, cantones y parroquias. Permitirá validar la jerarquía territorial y preparar la información para su integración con las tablas del Censo 2022 y NBI, así como para la construcción de la dimensión dim_geografia del Datatón Grupo 5."/>
+    <taggedValue xmi:id="_k9rvFdoAEfGo9sFIfF8LhA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_tqtscNoHEfGo9sFIfF8LhA" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_tqtscdoHEfGo9sFIfF8LhA" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <taggedValue xmi:id="_tqtsctoHEfGo9sFIfF8LhA" tag="Is Use Sample Data" value="false"/>
+    <taggedValue xmi:id="_3Ek-0NoHEfGo9sFIfF8LhA" tag="false" value="false"/>
+    <taggedValue xmi:id="_46btMNoHEfGo9sFIfF8LhA" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <context xmi:id="_k9rvFtoAEfGo9sFIfF8LhA">
+      <connection href="../../metadata/fileDelimited/lago_de_datos_grupo5/BDDenemdu_personas_2022_anual_0.1.item#_xe9P4NijEfGlBbYMxLBL7w"/>
+    </context>
+    <results xmi:id="_k9rvF9oAEfGo9sFIfF8LhA">
+      <resultMetadata xmi:id="_k9rvGNoAEfGo9sFIfF8LhA"/>
+    </results>
+    <parameters xmi:id="_k9rvGdoAEfGo9sFIfF8LhA" dataFilter="_46btMdoHEfGo9sFIfF8LhA" analysisType="Multiple Column Analysis" executionLanguage="Java"/>
+    <contextType xmi:id="_tqtFYNoHEfGo9sFIfF8LhA" confirmationNeeded="false" hide="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_46btMdoHEfGo9sFIfF8LhA" name="Analisis_tFll_Clasificador_Geografico_2022">
+    <ranges xmi:id="_46btMtoHEfGo9sFIfF8LhA">
+      <expressions xmi:id="_46btM9oHEfGo9sFIfF8LhA">
+        <expression xsi:type="relational:TdExpression" xmi:id="_46btNNoHEfGo9sFIfF8LhA" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>

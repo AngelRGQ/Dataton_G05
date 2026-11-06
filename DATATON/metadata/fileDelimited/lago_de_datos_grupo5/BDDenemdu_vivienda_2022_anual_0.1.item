@@ -1,43 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendMetadata:DelimitedFileConnection xmi:id="_C8VQQNilEfGlBbYMxLBL7w" name="BDDenemdu_vivienda_2022_anual" dataPackage="_C8VQQdilEfGlBbYMxLBL7w" Server="Localhost 127.0.0.1" FilePath="C:/DATASET/INEC_2_BDD_DATOS_ABIERTOS_ENEMDU_2022_CSV/BDDenemdu_vivienda_2022_anual.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_C8VQQNilEfGlBbYMxLBL7w" name="BDDenemdu_vivienda_2022_anual" supplierDependency="_v2urUNn3EfG-VMLrXyu3fQ" dataPackage="_C8VQQdilEfGlBbYMxLBL7w" Server="Localhost 127.0.0.1" FilePath="C:/DATASET/INEC_2_BDD_DATOS_ABIERTOS_ENEMDU_2022_CSV/BDDenemdu_vivienda_2022_anual.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_C8VQQdilEfGlBbYMxLBL7w" name="default" dataManager="_C8VQQNilEfGlBbYMxLBL7w">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_C8VQQtilEfGlBbYMxLBL7w" id="_sJJMUNikEfGlBbYMxLBL7w" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQQ9ilEfGlBbYMxLBL7w" label="area" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQRNilEfGlBbYMxLBL7w" label="ciudad" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQRdilEfGlBbYMxLBL7w" label="conglomerado" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQRtilEfGlBbYMxLBL7w" label="panelm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQR9ilEfGlBbYMxLBL7w" label="vivienda" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQSNilEfGlBbYMxLBL7w" label="hogar" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQSdilEfGlBbYMxLBL7w" label="vi01" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQStilEfGlBbYMxLBL7w" label="vi02" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQS9ilEfGlBbYMxLBL7w" label="vi03a" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQTNilEfGlBbYMxLBL7w" label="vi03b" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQTdilEfGlBbYMxLBL7w" label="vi04a" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQTtilEfGlBbYMxLBL7w" label="vi04b" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQT9ilEfGlBbYMxLBL7w" label="vi05a" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQUNilEfGlBbYMxLBL7w" label="vi05b" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQUdilEfGlBbYMxLBL7w" label="vi06" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQUtilEfGlBbYMxLBL7w" label="vi07" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQU9ilEfGlBbYMxLBL7w" label="vi07a" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQVNilEfGlBbYMxLBL7w" label="vi07b" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQVdilEfGlBbYMxLBL7w" label="vi08" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQVtilEfGlBbYMxLBL7w" label="vi09" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQV9ilEfGlBbYMxLBL7w" label="vi10" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQWNilEfGlBbYMxLBL7w" label="vi101" length="100" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQWdilEfGlBbYMxLBL7w" label="vi102" length="100" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQWtilEfGlBbYMxLBL7w" label="vi10a" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQW9ilEfGlBbYMxLBL7w" label="vi11" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQXNilEfGlBbYMxLBL7w" label="vi12" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQXdilEfGlBbYMxLBL7w" label="vi13" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQXtilEfGlBbYMxLBL7w" label="vi14" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQX9ilEfGlBbYMxLBL7w" label="estrato" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQYNilEfGlBbYMxLBL7w" label="fexp" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQYdilEfGlBbYMxLBL7w" label="upm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQYtilEfGlBbYMxLBL7w" label="id_vivienda" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQY9ilEfGlBbYMxLBL7w" label="id_hogar" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQZNilEfGlBbYMxLBL7w" label="periodo" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQZdilEfGlBbYMxLBL7w" label="mes" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQQ9ilEfGlBbYMxLBL7w" id="area" label="area" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2urUdn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQRNilEfGlBbYMxLBL7w" id="ciudad" label="ciudad" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2urXNn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQRdilEfGlBbYMxLBL7w" id="conglomerado" label="conglomerado" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2urb9n3EfG-VMLrXyu3fQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQRtilEfGlBbYMxLBL7w" id="panelm" label="panelm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2urgtn3EfG-VMLrXyu3fQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQR9ilEfGlBbYMxLBL7w" id="vivienda" label="vivienda" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2urldn3EfG-VMLrXyu3fQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQSNilEfGlBbYMxLBL7w" id="hogar" label="hogar" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2uroNn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQSdilEfGlBbYMxLBL7w" id="vi01" label="vi01" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2urq9n3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQStilEfGlBbYMxLBL7w" id="vi02" label="vi02" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2urttn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQS9ilEfGlBbYMxLBL7w" id="vi03a" label="vi03a" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2urwdn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQTNilEfGlBbYMxLBL7w" id="vi03b" label="vi03b" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2urzNn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQTdilEfGlBbYMxLBL7w" id="vi04a" label="vi04a" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2ur19n3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQTtilEfGlBbYMxLBL7w" id="vi04b" label="vi04b" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2ur4tn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQT9ilEfGlBbYMxLBL7w" id="vi05a" label="vi05a" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2ur7dn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQUNilEfGlBbYMxLBL7w" id="vi05b" label="vi05b" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2ur-Nn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQUdilEfGlBbYMxLBL7w" id="vi06" label="vi06" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2usA9n3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQUtilEfGlBbYMxLBL7w" id="vi07" label="vi07" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2usDtn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQU9ilEfGlBbYMxLBL7w" id="vi07a" label="vi07a" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2usGdn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQVNilEfGlBbYMxLBL7w" id="vi07b" label="vi07b" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2usJNn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQVdilEfGlBbYMxLBL7w" id="vi08" label="vi08" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2usL9n3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQVtilEfGlBbYMxLBL7w" id="vi09" label="vi09" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2usOtn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQV9ilEfGlBbYMxLBL7w" id="vi10" label="vi10" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2usRdn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQWNilEfGlBbYMxLBL7w" id="vi101" label="vi101" length="100" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2usWNn3EfG-VMLrXyu3fQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQWdilEfGlBbYMxLBL7w" id="vi102" label="vi102" length="100" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2usa9n3EfG-VMLrXyu3fQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQWtilEfGlBbYMxLBL7w" id="vi10a" label="vi10a" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2usdtn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQW9ilEfGlBbYMxLBL7w" id="vi11" label="vi11" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2usgdn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQXNilEfGlBbYMxLBL7w" id="vi12" label="vi12" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2usjNn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQXdilEfGlBbYMxLBL7w" id="vi13" label="vi13" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2usl9n3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQXtilEfGlBbYMxLBL7w" id="vi14" label="vi14" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2usotn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQX9ilEfGlBbYMxLBL7w" id="estrato" label="estrato" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2usrdn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQYNilEfGlBbYMxLBL7w" id="fexp" label="fexp" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2vSYtn3EfG-VMLrXyu3fQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQYdilEfGlBbYMxLBL7w" id="upm" label="upm" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2vSddn3EfG-VMLrXyu3fQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQYtilEfGlBbYMxLBL7w" id="id_vivienda" label="id_vivienda" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2vSiNn3EfG-VMLrXyu3fQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQY9ilEfGlBbYMxLBL7w" id="id_hogar" label="id_hogar" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2vSm9n3EfG-VMLrXyu3fQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQZNilEfGlBbYMxLBL7w" id="periodo" label="periodo" length="100" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2vSptn3EfG-VMLrXyu3fQ" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_C8VQZdilEfGlBbYMxLBL7w" id="mes" label="mes" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_v2vSudn3EfG-VMLrXyu3fQ" tag="Content Type" value="Nominal"/>
+      </feature>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_v2urUNn3EfG-VMLrXyu3fQ" kind="Usage" supplier="_C8VQQNilEfGlBbYMxLBL7w">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/Analisis_BDDenemdu_vivienda_2022_anual_0.1.ana#_h8rp8NoFEfG1mLTNfSJ-KA"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>

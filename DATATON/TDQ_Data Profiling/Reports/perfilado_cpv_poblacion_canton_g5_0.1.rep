@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_XAx0INmkEfGXnuIHbQTDYA" name="perfilado_cpv_poblacion_canton_g5" creationDate="2026-11-06T00:38:56.639-0500" defaultContext="Default">
+  <clientDependency href="../Analyses/perfilado_cpv_poblacion_canton_g5_0.1.ana#_XAybMNmkEfGXnuIHbQTDYA"/>
+  <taggedValue xmi:id="_XAx0IdmkEfGXnuIHbQTDYA" tag="OutputFolder" value="C:\Users\angel\Documents\CURSO\fuentes_ia"/>
+  <taggedValue xmi:id="_XAx0ItmkEfGXnuIHbQTDYA" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_XAx0I9mkEfGXnuIHbQTDYA" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_XAx0JNmkEfGXnuIHbQTDYA" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_XAx0JdmkEfGXnuIHbQTDYA" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_XAx0JtmkEfGXnuIHbQTDYA" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_XAx0J9mkEfGXnuIHbQTDYA" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_XAx0KNmkEfGXnuIHbQTDYA" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_XAx0KdmkEfGXnuIHbQTDYA" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_XAx0KtmkEfGXnuIHbQTDYA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:+ljejmy+bpgSwlmzEXbxxZDAENXgiM6AWDlHOA=="/>
+  <taggedValue xmi:id="_XAx0K9mkEfGXnuIHbQTDYA" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_XAx0LNmkEfGXnuIHbQTDYA" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/C:\Talend\8.0.1\studio\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_XAx0LdmkEfGXnuIHbQTDYA" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_XAx0LtmkEfGXnuIHbQTDYA" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_XAx0L9mkEfGXnuIHbQTDYA" tag="Author" value="angel.guanio+talend@trial.ohj33qzesn2rnlm.us.qlikcloud.com"/>
+  <taggedValue xmi:id="_XCFbsNmkEfGXnuIHbQTDYA" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_XCFbsdmkEfGXnuIHbQTDYA" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_1Nr3oNmkEfGXnuIHbQTDYA" tag="OutputFileName" value="perfilado"/>
+  <taggedValue xmi:id="_19PFQNmkEfGXnuIHbQTDYA" tag="Single output" value="false"/>
+  <taggedValue xmi:id="__PRRUNmkEfGXnuIHbQTDYA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="__PRRUdmkEfGXnuIHbQTDYA" tag="Description" value=""/>
+  <taggedValue xmi:id="__PRRUtmkEfGXnuIHbQTDYA" tag="Status" value="development"/>
+  <taggedValue xmi:id="__PR4YdmkEfGXnuIHbQTDYA" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="__PR4YtmkEfGXnuIHbQTDYA" tag="REP_AUTHPASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="__PR4Y9mkEfGXnuIHbQTDYA" tag="REP_CLIENTSECRET_CONTEXT" value="false"/>
+  <analysisMap xmi:id="_XAx0MNmkEfGXnuIHbQTDYA" reportType="Basic">
+    <analysis href="../Analyses/perfilado_cpv_poblacion_canton_g5_0.1.ana#_qE7JkNmbEfGXnuIHbQTDYA"/>
+  </analysisMap>
+  <context xmi:id="__PR4YNmkEfGXnuIHbQTDYA" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>
