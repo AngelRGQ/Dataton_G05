@@ -1034,6 +1034,18 @@
       <contextParameter xmi:id="_v6PUiNoGEfGjVb1XdXSgUA" comment="" name="FILE_CPV_VIVIENDA" prompt="FILE_CPV_VIVIENDA?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/"/>
       <contextParameter xmi:id="_v6PUidoGEfGjVb1XdXSgUA" comment="" name="LOAD_SOURCE_TAG" prompt="LOAD_SOURCE_TAG?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dataton_grupo5"/>
     </contextType>
+    <contextType xmi:id="_fLs80NoVEfGjVb1XdXSgUA" confirmationNeeded="false" name="DWHDEV">
+      <contextParameter xmi:id="_fLs80doVEfGjVb1XdXSgUA" comment="" name="DB_NAME" prompt="DB_NAME?" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="DWHDEV"/>
+      <contextParameter xmi:id="_fLs80toVEfGjVb1XdXSgUA" comment="" name="DB_USER" prompt="DB_USER?" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dev_genius"/>
+      <contextParameter xmi:id="_fLs809oVEfGjVb1XdXSgUA" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="CambiarEsta#2026"/>
+      <contextParameter xmi:id="_fLs81NoVEfGjVb1XdXSgUA" comment="" name="LOAD_SOURCE_TAG" prompt="LOAD_SOURCE_TAG?" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dataton_grupo5"/>
+      <contextParameter xmi:id="_fLs81doVEfGjVb1XdXSgUA" comment="" name="DB_HOST" prompt="DB_HOST?" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="209.50.245.36"/>
+      <contextParameter xmi:id="_fLs81toVEfGjVb1XdXSgUA" comment="" name="ENV_NAME" prompt="ENV_NAME?" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dev"/>
+      <contextParameter xmi:id="_fLs819oVEfGjVb1XdXSgUA" comment="" name="FILE_CPV_POBLACION" prompt="FILE_CPV_POBLACION?" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/"/>
+      <contextParameter xmi:id="_fLs82NoVEfGjVb1XdXSgUA" comment="" name="FILE_CPV_HOGAR" prompt="FILE_CPV_HOGAR?" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/"/>
+      <contextParameter xmi:id="_fLs82doVEfGjVb1XdXSgUA" comment="" name="FILE_CPV_VIVIENDA" prompt="FILE_CPV_VIVIENDA?" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/"/>
+      <contextParameter xmi:id="_fLs82toVEfGjVb1XdXSgUA" comment="" name="DB_PORT" prompt="DB_PORT?" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="3306"/>
+    </contextType>
   </dataquality.analysis:Analysis>
   <dataquality.domain:Domain xmi:id="_mtLvENoGEfGjVb1XdXSgUA" name="Analisis_INEC_NBI_10.2_pobreza_por_parroquia">
     <ranges xmi:id="_mtLvEdoGEfGjVb1XdXSgUA">

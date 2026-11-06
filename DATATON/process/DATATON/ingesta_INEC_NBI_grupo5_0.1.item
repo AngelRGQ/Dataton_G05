@@ -12,6 +12,18 @@
     <contextParameter comment="" name="FILE_CPV_VIVIENDA" prompt="FILE_CPV_VIVIENDA?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/" internalId="_zBlSuNjDEfGS4Oy_nGQk2w"/>
     <contextParameter comment="" name="LOAD_SOURCE_TAG" prompt="LOAD_SOURCE_TAG?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dataton_grupo5" internalId="_zBlSudjDEfGS4Oy_nGQk2w"/>
   </context>
+  <context confirmationNeeded="false" hide="false" name="DWHDEV">
+    <contextParameter comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="DWHDEV" internalId="_ekYeINoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dev_genius" internalId="_ekYeIdoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="CambiarEsta#2026" internalId="_ekYeItoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="LOAD_SOURCE_TAG" prompt="LOAD_SOURCE_TAG?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dataton_grupo5" internalId="_ekYeI9oVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="209.50.245.36" internalId="_ekYeJNoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dev" internalId="_ekYeJdoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="FILE_CPV_POBLACION" prompt="FILE_CPV_POBLACION?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/" internalId="_ekYeJtoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="FILE_CPV_HOGAR" prompt="FILE_CPV_HOGAR?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/" internalId="_ekYeJ9oVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="FILE_CPV_VIVIENDA" prompt="FILE_CPV_VIVIENDA?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/" internalId="_ekYeKNoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="3306" internalId="_ekYeKdoVEfGjVb1XdXSgUA"/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="40" show="false"/>

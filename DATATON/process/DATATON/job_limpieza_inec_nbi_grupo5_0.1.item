@@ -12,6 +12,18 @@
     <contextParameter comment="" name="FILE_CPV_VIVIENDA" prompt="FILE_CPV_VIVIENDA?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/" internalId="_5Fu9WNlOEfGWQuyR8JKMkg"/>
     <contextParameter comment="" name="LOAD_SOURCE_TAG" prompt="LOAD_SOURCE_TAG?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dataton_grupo5" internalId="_5Fu9WdlOEfGWQuyR8JKMkg"/>
   </context>
+  <context confirmationNeeded="false" hide="false" name="DWHDEV">
+    <contextParameter comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="DWHDEV" internalId="_erjdINoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dev_genius" internalId="_erjdIdoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="CambiarEsta#2026" internalId="_erjdItoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="LOAD_SOURCE_TAG" prompt="LOAD_SOURCE_TAG?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dataton_grupo5" internalId="_erjdI9oVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="209.50.245.36" internalId="_erjdJNoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dev" internalId="_erjdJdoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="FILE_CPV_POBLACION" prompt="FILE_CPV_POBLACION?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/" internalId="_erjdJtoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="FILE_CPV_HOGAR" prompt="FILE_CPV_HOGAR?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/" internalId="_erjdJ9oVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="FILE_CPV_VIVIENDA" prompt="FILE_CPV_VIVIENDA?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/" internalId="_erjdKNoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="3306" internalId="_erjdKdoVEfGjVb1XdXSgUA"/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -167,6 +179,7 @@
       <elementValue elementRef="TRIM" value="false" id="15"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="raw_inec_nbi_8_1_pobreza_por_canton_provincia_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBInput_1">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -225,7 +238,7 @@
       <column comment="" key="false" length="255" name="motivo_rechazo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="255" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="v_provincia_valida" expression="row1.provincia != null &amp;&amp; !row1.provincia.trim().isEmpty()" type="id_Boolean"/>
         <mapperTableEntries name="v_canton_valido" expression="row1.canton != null &amp;&amp; !row1.canton.trim().isEmpty()" type="id_Boolean"/>
@@ -366,6 +379,7 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="stg_inec_nbi_8_1_pobreza_por_canton_provincia_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_1">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -483,6 +497,7 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="reject_inec_nbi_8_1_pobreza_por_canton_provincia_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_2">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -567,6 +582,7 @@
       <elementValue elementRef="TRIM" value="false" id="17"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="raw_inec_nbi_8_2_pobreza_por_parroquia_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBInput_2">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -629,7 +645,7 @@
       <column comment="" key="false" length="255" name="motivo_rechazo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="255" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="v_provincia_valida" expression="row2.provincia != null &amp;&amp; !row2.provincia.trim().isEmpty()" type="id_Boolean"/>
         <mapperTableEntries name="v_canton_valido" expression="row2.canton != null &amp;&amp; !row2.canton.trim().isEmpty()" type="id_Boolean"/>
@@ -785,6 +801,7 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="stg_inec_nbi_8_2_pobreza_por_parroquia_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_3">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -911,6 +928,7 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="reject_inec_nbi_8_2_pobreza_por_parroquia_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_4">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -1005,6 +1023,7 @@
       <elementValue elementRef="TRIM" value="false" id="25"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="raw_inec_nbi_10_1_pobreza_por_canton_NBI_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBInput_3">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -1079,7 +1098,7 @@
       <column comment="" key="false" length="255" name="motivo_rechazo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="255" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="v_provincia_valida" expression="row3.provincia != null &amp;&amp; !row3.provincia.trim().isEmpty()" type="id_Boolean"/>
         <mapperTableEntries name="v_canton_valido" expression="row3.canton != null &amp;&amp; !row3.canton.trim().isEmpty()" type="id_Boolean"/>
@@ -1266,6 +1285,7 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="stg_inec_nbi_10_1_pobreza_por_canton_NBI_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_5">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -1420,6 +1440,7 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="reject_inec_nbi_10_1_pobreza_por_canton_NBI_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_6">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -1524,6 +1545,7 @@
       <elementValue elementRef="TRIM" value="false" id="27"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="raw_inec_nbi_10_2_pobreza_por_parroquia_NBI_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBInput_4">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -1601,7 +1623,7 @@
       <column comment="" key="false" length="255" name="motivo_rechazo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="255" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="v_provincia_valida" expression="row4.provincia != null &amp;&amp; !row4.provincia.trim().isEmpty()" type="id_Boolean"/>
         <mapperTableEntries name="v_canton_valido" expression="row4.canton != null &amp;&amp; !row4.canton.trim().isEmpty()" type="id_Boolean"/>
@@ -1797,6 +1819,7 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="stg_inec_nbi_10_2_pobreza_por_parroquia_NBI_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_7">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -1958,6 +1981,7 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="reject_inec_nbi_10_2_pobreza_por_parroquia_NBI_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_8">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -2060,6 +2084,7 @@
       <elementValue elementRef="TRIM" value="false" id="23"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="raw_inec_nbi_1_1_pobreza_poblacion_por_canton_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBInput_5">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -2131,7 +2156,7 @@
       <column comment="" key="false" length="255" name="motivo_rechazo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="255" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="v_provincia_valida" expression="row5.provincia != null &amp;&amp; !row5.provincia.trim().isEmpty()" type="id_Boolean"/>
         <mapperTableEntries name="v_canton_valido" expression="row5.canton != null &amp;&amp; !row5.canton.trim().isEmpty()" type="id_Boolean"/>
@@ -2310,6 +2335,7 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="stg_inec_nbi_1_1_pobreza_poblacion_por_canton_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_9">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -2457,6 +2483,7 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="reject_inec_nbi_1_1_pobreza_poblacion_por_canton_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_10">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -2547,6 +2574,7 @@
       <elementValue elementRef="TRIM" value="false" id="15"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="raw_inec_nbi_9_1_pobreza_extrema_por_nbi_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBInput_6">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -2606,7 +2634,7 @@
       <column comment="" key="false" length="255" name="motivo_rechazo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="255" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="v_txt_total" expression="String.valueOf(row6.total_hogares).trim()" type="id_String"/>
         <mapperTableEntries name="v_txt_no_extrema" expression="String.valueOf(row6.hogares_no_pobreza_extrema).trim()" type="id_String"/>
@@ -2756,6 +2784,7 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="stg_inec_nbi_9_1_pobreza_extrema_por_nbi_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_11">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -2875,6 +2904,7 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="reject_inec_nbi_9_1_pobreza_extrema_por_nbi_g5"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_12">
       <column comment="" key="false" length="100" name="provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="canton" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>

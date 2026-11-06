@@ -12,6 +12,18 @@
     <contextParameter comment="" name="FILE_CPV_VIVIENDA" prompt="FILE_CPV_VIVIENDA?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/" internalId="_Y_Pt2NilEfGlBbYMxLBL7w"/>
     <contextParameter comment="" name="LOAD_SOURCE_TAG" prompt="LOAD_SOURCE_TAG?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dataton_grupo5" internalId="_Y_Pt2dilEfGlBbYMxLBL7w"/>
   </context>
+  <context confirmationNeeded="false" hide="false" name="DWHDEV">
+    <contextParameter comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="DWHDEV" internalId="_eyUzgNoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dev_genius" internalId="_eyUzgdoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="CambiarEsta#2026" internalId="_eyUzgtoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="LOAD_SOURCE_TAG" prompt="LOAD_SOURCE_TAG?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dataton_grupo5" internalId="_eyUzg9oVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="209.50.245.36" internalId="_eyUzhNoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dev" internalId="_eyUzhdoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="FILE_CPV_POBLACION" prompt="FILE_CPV_POBLACION?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/" internalId="_eyUzhtoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="FILE_CPV_HOGAR" prompt="FILE_CPV_HOGAR?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/" internalId="_eyUzh9oVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="FILE_CPV_VIVIENDA" prompt="FILE_CPV_VIVIENDA?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/" internalId="_eyUziNoVEfGjVb1XdXSgUA"/>
+    <contextParameter comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="3306" internalId="_eyUzidoVEfGjVb1XdXSgUA"/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="40" show="false"/>
@@ -1172,7 +1184,7 @@
       <column comment="" key="false" length="200" name="load_source" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="200" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out_personas">
         <mapperTableEntries name="area" expression="row1.area " type="id_Integer" nullable="true"/>
@@ -2836,7 +2848,7 @@
       <column comment="" key="false" length="200" name="load_source" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="200" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out_vivienda">
         <mapperTableEntries name="area" expression="row2.area " type="id_Integer" nullable="true"/>
