@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_5eFQANoLEfGjVb1XdXSgUA" name="Analisis_clasificador_geo_gr5" creationDate="2026-11-06T13:00:06.105-0500" defaultContext="Default">
-    <clientDependency href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_dj19QNoMEfGjVb1XdXSgUA"/>
+    <clientDependency href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_dj19QNoMEfGjVb1XdXSgUA"/>
     <taggedValue xmi:id="_5eHFMNoLEfGjVb1XdXSgUA" tag="Status" value="Draft"/>
     <taggedValue xmi:id="_5eHFMdoLEfGjVb1XdXSgUA" tag="Author" value="jermin.vasquez@trial.8mbr1j3q00lfq88.us.qlikcloud.com"/>
     <taggedValue xmi:id="_5eHFMtoLEfGjVb1XdXSgUA" tag="Purpose" value="Evaluar la calidad de los datos del Clasificador Geográfico 2022 del INEC antes de usarlo en los análisis del Dataton."/>
@@ -12,19 +12,19 @@
     <taggedValue xmi:id="_U7oKQNoMEfGjVb1XdXSgUA" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
     <taggedValue xmi:id="_U7oxUNoMEfGjVb1XdXSgUA" tag="Is Use Sample Data" value="false"/>
     <context xmi:id="_5eHFNdoLEfGjVb1XdXSgUA">
-      <connection href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3-u0NoKEfGjVb1XdXSgUA"/>
-      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
-      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
-      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
-      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
-      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
-      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
+      <connection href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3-u0NoKEfGjVb1XdXSgUA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
     </context>
     <results xmi:id="_5eHFNtoLEfGjVb1XdXSgUA">
       <resultMetadata xmi:id="_5eHFN9oLEfGjVb1XdXSgUA" executionDate="2026-11-06T13:04:11.202-0500" executionDuration="952" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_dj0vINoMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj1WMNoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_dzzr4NoMEfGjVb1XdXSgUA" name="Row Count" label="Row Count">
           <taggedValue xmi:id="_dzzr4doMEfGjVb1XdXSgUA" tag="Description" value="counts the number of rows"/>
@@ -34,7 +34,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_dj1WMdoMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj1WMtoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
         <builtInIndicatorDefinition xmi:id="_d0dzMNoMEfGjVb1XdXSgUA" name="Null Count" label="Null Count">
           <taggedValue xmi:id="_d0dzMdoMEfGjVb1XdXSgUA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
@@ -44,7 +44,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_dj1WM9oMEfGjVb1XdXSgUA" count="1042" computed="true" distinctValueCount="24">
         <parameters xmi:id="_dj1WNNoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d0r1oNoMEfGjVb1XdXSgUA" name="Distinct Count" label="Distinct Count">
           <taggedValue xmi:id="_d0r1odoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
@@ -54,7 +54,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_dj1WNdoMEfGjVb1XdXSgUA" count="1042" computed="true" uniqueValueCount="0">
         <parameters xmi:id="_dj1WNtoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d06fINoMEfGjVb1XdXSgUA" name="Unique Count" label="Unique Count">
           <taggedValue xmi:id="_d06fIdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
@@ -70,7 +70,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_dj1WN9oMEfGjVb1XdXSgUA" count="1042" computed="true" duplicateValueCount="24">
         <parameters xmi:id="_dj1WONoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d1MzANoMEfGjVb1XdXSgUA" name="Duplicate Count" label="Duplicate Count">
           <taggedValue xmi:id="_d1MzAdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
@@ -86,7 +86,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_dj1WOdoMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj1WOtoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d1a1cNoMEfGjVb1XdXSgUA" name="Blank Count" label="Blank Count">
           <taggedValue xmi:id="_d1a1cdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of blank rows. A blank is a non null textual data that contains only white spaces (or nothing). Note that Oracle does not distinguish between the empty string and the null value"/>
@@ -102,7 +102,7 @@
         <parameters xmi:id="_dj1WPNoMEfGjVb1XdXSgUA">
           <textParameter xmi:id="_dj1WPdoMEfGjVb1XdXSgUA" useBlank="false"/>
         </parameters>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d1nCsNoMEfGjVb1XdXSgUA" name="Minimal Length" label="Minimal Length">
           <taggedValue xmi:id="_d1nCsdoMEfGjVb1XdXSgUA" tag="Description" value="computes the minimal length of a text field. Does not take into account the null and blank values when computing the minimal length."/>
@@ -126,7 +126,7 @@
         <parameters xmi:id="_dj1WP9oMEfGjVb1XdXSgUA">
           <textParameter xmi:id="_dj1WQNoMEfGjVb1XdXSgUA" useBlank="false"/>
         </parameters>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4doKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d10eENoMEfGjVb1XdXSgUA" name="Maximal Length" label="Maximal Length">
           <taggedValue xmi:id="_d10eEdoMEfGjVb1XdXSgUA" tag="Description" value="computes the maximal length of a text field. Does not take into account the null and blank values when computing the maximal length."/>
@@ -148,7 +148,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_dj19QtoMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj19Q9oMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d2Fj0NoMEfGjVb1XdXSgUA" name="Row Count" label="Row Count">
           <taggedValue xmi:id="_d2Fj0doMEfGjVb1XdXSgUA" tag="Description" value="counts the number of rows"/>
@@ -158,7 +158,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_dj19RNoMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj19RdoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
         <builtInIndicatorDefinition xmi:id="_d2S_MNoMEfGjVb1XdXSgUA" name="Null Count" label="Null Count">
           <taggedValue xmi:id="_d2S_MdoMEfGjVb1XdXSgUA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
@@ -168,7 +168,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_dj19RtoMEfGjVb1XdXSgUA" count="1042" computed="true" distinctValueCount="24">
         <parameters xmi:id="_dj19R9oMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d2hosNoMEfGjVb1XdXSgUA" name="Distinct Count" label="Distinct Count">
           <taggedValue xmi:id="_d2hosdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
@@ -178,7 +178,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_dj19SNoMEfGjVb1XdXSgUA" count="1042" computed="true" uniqueValueCount="0">
         <parameters xmi:id="_dj19SdoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d2xgUNoMEfGjVb1XdXSgUA" name="Unique Count" label="Unique Count">
           <taggedValue xmi:id="_d2xgUdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
@@ -194,7 +194,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_dj19StoMEfGjVb1XdXSgUA" count="1042" computed="true" duplicateValueCount="24">
         <parameters xmi:id="_dj19S9oMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d2-UoNoMEfGjVb1XdXSgUA" name="Duplicate Count" label="Duplicate Count">
           <taggedValue xmi:id="_d2-UodoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
@@ -210,7 +210,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_dj19TNoMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj19TdoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d3IssNoMEfGjVb1XdXSgUA" name="Blank Count" label="Blank Count">
           <taggedValue xmi:id="_d3IssdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of blank rows. A blank is a non null textual data that contains only white spaces (or nothing). Note that Oracle does not distinguish between the empty string and the null value"/>
@@ -226,7 +226,7 @@
         <parameters xmi:id="_dj19T9oMEfGjVb1XdXSgUA">
           <textParameter xmi:id="_dj19UNoMEfGjVb1XdXSgUA" useBlank="false"/>
         </parameters>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d3U58NoMEfGjVb1XdXSgUA" name="Minimal Length" label="Minimal Length">
           <taggedValue xmi:id="_d3U58doMEfGjVb1XdXSgUA" tag="Description" value="computes the minimal length of a text field. Does not take into account the null and blank values when computing the minimal length."/>
@@ -250,7 +250,7 @@
         <parameters xmi:id="_dj19UtoMEfGjVb1XdXSgUA">
           <textParameter xmi:id="_dj19U9oMEfGjVb1XdXSgUA" useBlank="false"/>
         </parameters>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V4toKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d3f5ENoMEfGjVb1XdXSgUA" name="Maximal Length" label="Maximal Length">
           <taggedValue xmi:id="_d3f5EdoMEfGjVb1XdXSgUA" tag="Description" value="computes the maximal length of a text field. Does not take into account the null and blank values when computing the maximal length."/>
@@ -272,7 +272,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_dj2kUdoMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj2kUtoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d3t7gNoMEfGjVb1XdXSgUA" name="Row Count" label="Row Count">
           <taggedValue xmi:id="_d3t7gdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of rows"/>
@@ -282,7 +282,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_dj2kU9oMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj2kVNoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
         <builtInIndicatorDefinition xmi:id="_d35hsNoMEfGjVb1XdXSgUA" name="Null Count" label="Null Count">
           <taggedValue xmi:id="_d35hsdoMEfGjVb1XdXSgUA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
@@ -292,7 +292,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_dj2kVdoMEfGjVb1XdXSgUA" count="1042" computed="true" distinctValueCount="221">
         <parameters xmi:id="_dj2kVtoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d4FH4NoMEfGjVb1XdXSgUA" name="Distinct Count" label="Distinct Count">
           <taggedValue xmi:id="_d4FH4doMEfGjVb1XdXSgUA" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
@@ -302,7 +302,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_dj2kV9oMEfGjVb1XdXSgUA" count="1042" computed="true" uniqueValueCount="41">
         <parameters xmi:id="_dj2kWNoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d4QuENoMEfGjVb1XdXSgUA" name="Unique Count" label="Unique Count">
           <taggedValue xmi:id="_d4QuEdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
@@ -318,7 +318,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_dj2kWdoMEfGjVb1XdXSgUA" count="1042" computed="true" duplicateValueCount="180">
         <parameters xmi:id="_dj2kWtoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d4hMwNoMEfGjVb1XdXSgUA" name="Duplicate Count" label="Duplicate Count">
           <taggedValue xmi:id="_d4hMwdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
@@ -334,7 +334,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_dj2kW9oMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj2kXNoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d4rk0NoMEfGjVb1XdXSgUA" name="Blank Count" label="Blank Count">
           <taggedValue xmi:id="_d4rk0doMEfGjVb1XdXSgUA" tag="Description" value="counts the number of blank rows. A blank is a non null textual data that contains only white spaces (or nothing). Note that Oracle does not distinguish between the empty string and the null value"/>
@@ -350,7 +350,7 @@
         <parameters xmi:id="_dj2kXtoMEfGjVb1XdXSgUA">
           <textParameter xmi:id="_dj2kX9oMEfGjVb1XdXSgUA" useBlank="false"/>
         </parameters>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d43LANoMEfGjVb1XdXSgUA" name="Minimal Length" label="Minimal Length">
           <taggedValue xmi:id="_d43LAdoMEfGjVb1XdXSgUA" tag="Description" value="computes the minimal length of a text field. Does not take into account the null and blank values when computing the minimal length."/>
@@ -374,7 +374,7 @@
         <parameters xmi:id="_dj2kYdoMEfGjVb1XdXSgUA">
           <textParameter xmi:id="_dj2kYtoMEfGjVb1XdXSgUA" useBlank="false"/>
         </parameters>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V49oKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d5BjENoMEfGjVb1XdXSgUA" name="Maximal Length" label="Maximal Length">
           <taggedValue xmi:id="_d5BjEdoMEfGjVb1XdXSgUA" tag="Description" value="computes the maximal length of a text field. Does not take into account the null and blank values when computing the maximal length."/>
@@ -396,7 +396,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_dj2kZNoMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj2kZdoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d5L7INoMEfGjVb1XdXSgUA" name="Row Count" label="Row Count">
           <taggedValue xmi:id="_d5L7IdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of rows"/>
@@ -406,7 +406,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_dj2kZtoMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj2kZ9oMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
         <builtInIndicatorDefinition xmi:id="_d5YIYNoMEfGjVb1XdXSgUA" name="Null Count" label="Null Count">
           <taggedValue xmi:id="_d5YIYdoMEfGjVb1XdXSgUA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
@@ -416,7 +416,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_dj2kaNoMEfGjVb1XdXSgUA" count="1042" computed="true" distinctValueCount="219">
         <parameters xmi:id="_dj2kadoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d5pOINoMEfGjVb1XdXSgUA" name="Distinct Count" label="Distinct Count">
           <taggedValue xmi:id="_d5pOIdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
@@ -426,7 +426,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_dj2katoMEfGjVb1XdXSgUA" count="1042" computed="true" uniqueValueCount="40">
         <parameters xmi:id="_dj2ka9oMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d5zmMNoMEfGjVb1XdXSgUA" name="Unique Count" label="Unique Count">
           <taggedValue xmi:id="_d5zmMdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
@@ -442,7 +442,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_dj2kbNoMEfGjVb1XdXSgUA" count="1042" computed="true" duplicateValueCount="179">
         <parameters xmi:id="_dj2kbdoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d5-lUNoMEfGjVb1XdXSgUA" name="Duplicate Count" label="Duplicate Count">
           <taggedValue xmi:id="_d5-lUdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
@@ -458,7 +458,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_dj2kbtoMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj2kb9oMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d6KykNoMEfGjVb1XdXSgUA" name="Blank Count" label="Blank Count">
           <taggedValue xmi:id="_d6KykdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of blank rows. A blank is a non null textual data that contains only white spaces (or nothing). Note that Oracle does not distinguish between the empty string and the null value"/>
@@ -474,7 +474,7 @@
         <parameters xmi:id="_dj2kcdoMEfGjVb1XdXSgUA">
           <textParameter xmi:id="_dj2kctoMEfGjVb1XdXSgUA" useBlank="false"/>
         </parameters>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d6VxsNoMEfGjVb1XdXSgUA" name="Minimal Length" label="Minimal Length">
           <taggedValue xmi:id="_d6VxsdoMEfGjVb1XdXSgUA" tag="Description" value="computes the minimal length of a text field. Does not take into account the null and blank values when computing the minimal length."/>
@@ -498,7 +498,7 @@
         <parameters xmi:id="_dj2kdNoMEfGjVb1XdXSgUA">
           <textParameter xmi:id="_dj2kddoMEfGjVb1XdXSgUA" useBlank="false"/>
         </parameters>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5NoKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d6gJwNoMEfGjVb1XdXSgUA" name="Maximal Length" label="Maximal Length">
           <taggedValue xmi:id="_d6gJwdoMEfGjVb1XdXSgUA" tag="Description" value="computes the maximal length of a text field. Does not take into account the null and blank values when computing the maximal length."/>
@@ -520,7 +520,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_dj2kd9oMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj2keNoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d6qh0NoMEfGjVb1XdXSgUA" name="Row Count" label="Row Count">
           <taggedValue xmi:id="_d6qh0doMEfGjVb1XdXSgUA" tag="Description" value="counts the number of rows"/>
@@ -530,7 +530,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_dj2kedoMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj2ketoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
         <builtInIndicatorDefinition xmi:id="_d65yYNoMEfGjVb1XdXSgUA" name="Null Count" label="Null Count">
           <taggedValue xmi:id="_d65yYdoMEfGjVb1XdXSgUA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
@@ -540,7 +540,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_dj2ke9oMEfGjVb1XdXSgUA" count="1042" computed="true" distinctValueCount="1042">
         <parameters xmi:id="_dj2kfNoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d8bcYNoMEfGjVb1XdXSgUA" name="Distinct Count" label="Distinct Count">
           <taggedValue xmi:id="_d8bcYdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
@@ -550,7 +550,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_dj2kfdoMEfGjVb1XdXSgUA" count="1042" computed="true" uniqueValueCount="1042">
         <parameters xmi:id="_dj2kftoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d8nCkNoMEfGjVb1XdXSgUA" name="Unique Count" label="Unique Count">
           <taggedValue xmi:id="_d8nCkdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
@@ -566,7 +566,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_dj2kf9oMEfGjVb1XdXSgUA" count="1042" computed="true" duplicateValueCount="0">
         <parameters xmi:id="_dj2kgNoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d8yowNoMEfGjVb1XdXSgUA" name="Duplicate Count" label="Duplicate Count">
           <taggedValue xmi:id="_d8yowdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
@@ -582,7 +582,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_dj2kgdoMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj2kgtoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d87ysNoMEfGjVb1XdXSgUA" name="Blank Count" label="Blank Count">
           <taggedValue xmi:id="_d87ysdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of blank rows. A blank is a non null textual data that contains only white spaces (or nothing). Note that Oracle does not distinguish between the empty string and the null value"/>
@@ -598,7 +598,7 @@
         <parameters xmi:id="_dj2khNoMEfGjVb1XdXSgUA">
           <textParameter xmi:id="_dj2khdoMEfGjVb1XdXSgUA" useBlank="false"/>
         </parameters>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d9HY4NoMEfGjVb1XdXSgUA" name="Minimal Length" label="Minimal Length">
           <taggedValue xmi:id="_d9HY4doMEfGjVb1XdXSgUA" tag="Description" value="computes the minimal length of a text field. Does not take into account the null and blank values when computing the minimal length."/>
@@ -622,7 +622,7 @@
         <parameters xmi:id="_dj2kh9oMEfGjVb1XdXSgUA">
           <textParameter xmi:id="_dj2kiNoMEfGjVb1XdXSgUA" useBlank="false"/>
         </parameters>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5doKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d9WpcNoMEfGjVb1XdXSgUA" name="Maximal Length" label="Maximal Length">
           <taggedValue xmi:id="_d9WpcdoMEfGjVb1XdXSgUA" tag="Description" value="computes the maximal length of a text field. Does not take into account the null and blank values when computing the maximal length."/>
@@ -644,7 +644,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_dj2kitoMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj2ki9oMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d9hokNoMEfGjVb1XdXSgUA" name="Row Count" label="Row Count">
           <taggedValue xmi:id="_d9hokdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of rows"/>
@@ -654,7 +654,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_dj2kjNoMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj2kjdoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
         <builtInIndicatorDefinition xmi:id="_d9uc4NoMEfGjVb1XdXSgUA" name="Null Count" label="Null Count">
           <taggedValue xmi:id="_d9uc4doMEfGjVb1XdXSgUA" tag="Purpose" value="evaluate the number of missing data (null records)"/>
@@ -664,7 +664,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_dj2kjtoMEfGjVb1XdXSgUA" count="1042" computed="true" distinctValueCount="927">
         <parameters xmi:id="_dj2kj9oMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d9408NoMEfGjVb1XdXSgUA" name="Distinct Count" label="Distinct Count">
           <taggedValue xmi:id="_d9408doMEfGjVb1XdXSgUA" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
@@ -674,7 +674,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_dj2kkNoMEfGjVb1XdXSgUA" count="1042" computed="true" uniqueValueCount="859">
         <parameters xmi:id="_dj2kkdoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d-D0ENoMEfGjVb1XdXSgUA" name="Unique Count" label="Unique Count">
           <taggedValue xmi:id="_d-D0EdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
@@ -690,7 +690,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_dj2kktoMEfGjVb1XdXSgUA" count="1042" computed="true" duplicateValueCount="68">
         <parameters xmi:id="_dj2kk9oMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d-OzMNoMEfGjVb1XdXSgUA" name="Duplicate Count" label="Duplicate Count">
           <taggedValue xmi:id="_d-OzMdoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
@@ -706,7 +706,7 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_dj2klNoMEfGjVb1XdXSgUA" count="1042" computed="true">
         <parameters xmi:id="_dj2kldoMEfGjVb1XdXSgUA"/>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d-c1oNoMEfGjVb1XdXSgUA" name="Blank Count" label="Blank Count">
           <taggedValue xmi:id="_d-c1odoMEfGjVb1XdXSgUA" tag="Description" value="counts the number of blank rows. A blank is a non null textual data that contains only white spaces (or nothing). Note that Oracle does not distinguish between the empty string and the null value"/>
@@ -722,7 +722,7 @@
         <parameters xmi:id="_dj2kl9oMEfGjVb1XdXSgUA">
           <textParameter xmi:id="_dj2kmNoMEfGjVb1XdXSgUA" useBlank="false"/>
         </parameters>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d-rfINoMEfGjVb1XdXSgUA" name="Minimal Length" label="Minimal Length">
           <taggedValue xmi:id="_d-rfIdoMEfGjVb1XdXSgUA" tag="Description" value="computes the minimal length of a text field. Does not take into account the null and blank values when computing the minimal length."/>
@@ -746,7 +746,7 @@
         <parameters xmi:id="_dj2kmtoMEfGjVb1XdXSgUA">
           <textParameter xmi:id="_dj2km9oMEfGjVb1XdXSgUA" useBlank="false"/>
         </parameters>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/CODIFICACIÓN_2022_cantones_0.1.item#_M3_V5toKEfGjVb1XdXSgUA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
         <builtInIndicatorDefinition xmi:id="_d-6IoNoMEfGjVb1XdXSgUA" name="Maximal Length" label="Maximal Length">
           <taggedValue xmi:id="_d-6IodoMEfGjVb1XdXSgUA" tag="Description" value="computes the maximal length of a text field. Does not take into account the null and blank values when computing the maximal length."/>
