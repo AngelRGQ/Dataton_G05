@@ -196,7 +196,6 @@ Dashboard
 
 Los activos catalogados deben incluir su descripción, fuente, responsable y relaciones de origen a destino.
 
-**Evidencias del catálogo:** incorporar las capturas de los activos y las relaciones de linaje efectivamente registradas en OpenMetadata, con un mínimo de tres activos relacionados.
 
 ## 8. Dashboard gubernamental
 
@@ -208,14 +207,6 @@ El tablero en Tableau utiliza las tablas y vistas analíticas de SingleStore:
 - `v_comparacion_nbi_g5`
 - `v_dimension_pobreza_canton_g5`
 - `v_dimension_pobreza_provincia_g5`
-
-Las visualizaciones contempladas incluyen:
-
-- Mapa coroplético de pobreza por cantón.
-- Indicadores de pobreza por provincia.
-- Ranking de cantones.
-- Análisis de dimensiones e indicadores de privación.
-- Comparación del índice adaptado con NBI oficial.
 
 ## 9. Ejecución y reproducibilidad
 
@@ -231,18 +222,7 @@ Las visualizaciones contempladas incluyen:
 
 No se deben publicar contraseñas ni credenciales de conexión en el repositorio.
 
-## 10. Evidencias
-
-Se recomienda organizar las evidencias del proyecto en las siguientes categorías:
-
-- **Talend:** Jobs de ingesta, limpieza y orquestación.
-- **Calidad:** reglas, resultados de perfilado y registros rechazados.
-- **SingleStore:** modelo dimensional, KPI y consultas de validación.
-- **OpenMetadata:** activos catalogados y linaje fuente-destino.
-- **Tableau:** capturas del dashboard y sus indicadores.
-- **GitHub:** historial de commits y documentación del proyecto.
-
-## 11. Conclusiones
+## 10. Conclusiones
 
 Se desarrolló una solución de ingeniería de datos que integra información oficial del Ecuador y permite analizar nueve indicadores de privación en más de cinco millones de hogares.
 
