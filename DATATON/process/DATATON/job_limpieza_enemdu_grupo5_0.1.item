@@ -197,6 +197,7 @@
       <elementValue elementRef="TRIM" value="false" id="47"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="ENEMDU_Personas_2022"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBInput_1">
       <column comment="" key="false" length="100" name="id_persona" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="id_hogar" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -305,7 +306,7 @@
       <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="stg_enemdu_personas_gr5" expressionFilter="row1.id_persona != null&#xD;&#xA;&amp;&amp; !row1.id_persona.trim().isEmpty()&#xD;&#xA;&amp;&amp; row1.id_hogar != null&#xD;&#xA;&amp;&amp; !row1.id_hogar.trim().isEmpty()&#xD;&#xA;&amp;&amp; (row1.p03 == null || (row1.p03 >= 0 &amp;&amp; row1.p03 &lt;= 120))" activateExpressionFilter="true">
         <mapperTableEntries name="id_persona" expression="row1.id_persona " type="id_String" nullable="true"/>
@@ -567,8 +568,9 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="STG_ENEMDU_Personas"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_1">
-      <column comment="" key="true" length="100" name="id_persona" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="id_persona" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="id_hogar" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="id_vivienda" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="10" name="area" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
@@ -592,11 +594,11 @@
       <column comment="" key="false" length="100" name="mes" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="26" name="load_ts" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="200" name="load_source" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="24" name="ingpc_num" nullable="true" pattern="" precision="15" sourceType="" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
-      <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="ingpc_num" nullable="true" pattern="" precision="15" sourceType="DECIMAL" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="DECIMAL" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="true" length="100" name="id_persona" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="id_persona" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="id_hogar" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="id_vivienda" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="10" name="area" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
@@ -620,8 +622,8 @@
       <column comment="" key="false" length="100" name="mes" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="26" name="load_ts" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="200" name="load_source" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="24" name="ingpc_num" nullable="true" pattern="" precision="15" sourceType="" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
-      <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="ingpc_num" nullable="true" pattern="" precision="15" sourceType="DECIMAL" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="DECIMAL" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -806,6 +808,7 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="REJECT_ENEMDU_Personas"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_2">
       <column comment="" key="false" length="100" name="id_persona" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="id_hogar" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -829,11 +832,11 @@
       <column comment="" key="false" length="100" name="fexp" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="10" name="periodo" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="mes" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="motivo_rechazo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="255" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="motivo_rechazo" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="255" usefulColumn="true"/>
       <column comment="" key="false" length="26" name="load_ts" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="200" name="load_source" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="24" name="ingpc_num" nullable="true" pattern="" precision="15" sourceType="" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
-      <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="ingpc_num" nullable="true" pattern="" precision="15" sourceType="DECIMAL" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="DECIMAL" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
       <column comment="" key="false" length="100" name="id_persona" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -858,11 +861,11 @@
       <column comment="" key="false" length="100" name="fexp" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="10" name="periodo" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="mes" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="motivo_rechazo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="255" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="motivo_rechazo" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="255" usefulColumn="true"/>
       <column comment="" key="false" length="26" name="load_ts" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="200" name="load_source" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="24" name="ingpc_num" nullable="true" pattern="" precision="15" sourceType="" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
-      <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="ingpc_num" nullable="true" pattern="" precision="15" sourceType="DECIMAL" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="DECIMAL" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -944,6 +947,7 @@
       <elementValue elementRef="TRIM" value="false" id="37"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="ENEMDU_Vivienda_2022"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBInput_2">
       <column comment="" key="false" length="100" name="id_hogar" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="id_vivienda" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -1035,7 +1039,7 @@
       <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="stg_enemdu_vivienda_gr5" expressionFilter="row2.id_hogar != null&#xD;&#xA;&amp;&amp; !row2.id_hogar.trim().isEmpty()&#xD;&#xA;&amp;&amp; row2.id_vivienda != null&#xD;&#xA;&amp;&amp; !row2.id_vivienda.trim().isEmpty()" activateExpressionFilter="true">
         <mapperTableEntries name="id_hogar" expression="row2.id_hogar " type="id_String" nullable="true"/>
@@ -1250,8 +1254,9 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="STG_ENEMDU_Vivienda"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_3">
-      <column comment="" key="true" length="100" name="id_hogar" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="id_hogar" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="id_vivienda" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="10" name="area" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="10" name="ciudad" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
@@ -1270,10 +1275,10 @@
       <column comment="" key="false" length="100" name="mes" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="26" name="load_ts" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="200" name="load_source" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="DECIMAL" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="true" length="100" name="id_hogar" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="id_hogar" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="id_vivienda" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="10" name="area" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="10" name="ciudad" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
@@ -1292,7 +1297,7 @@
       <column comment="" key="false" length="100" name="mes" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="26" name="load_ts" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="200" name="load_source" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="DECIMAL" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -1447,6 +1452,7 @@
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="REJECT_ENEMDU_Vivienda"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_4">
       <column comment="" key="false" length="100" name="id_hogar" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="id_vivienda" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -1467,8 +1473,8 @@
       <column comment="" key="false" length="100" name="mes" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="26" name="load_ts" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="200" name="load_source" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="motivo_rechazo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="255" usefulColumn="true"/>
-      <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="motivo_rechazo" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="255" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="DECIMAL" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
       <column comment="" key="false" length="100" name="id_hogar" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -1490,8 +1496,8 @@
       <column comment="" key="false" length="100" name="mes" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="26" name="load_ts" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="200" name="load_source" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="motivo_rechazo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="255" usefulColumn="true"/>
-      <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="motivo_rechazo" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="255" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="fexp_num" nullable="true" pattern="" precision="15" sourceType="DECIMAL" type="id_BigDecimal" originalLength="24" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
