@@ -254,7 +254,7 @@
       <column comment="" key="false" length="255" name="motivo_rechazo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="255" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="v_id_viv_valido" expression="row2.ID_VIV != null &amp;&amp; !row2.ID_VIV.trim().isEmpty()" type="id_Boolean"/>
         <mapperTableEntries name="v_canton_valido" expression="row2.CANTON != null &amp;&amp; !row2.CANTON.trim().isEmpty()" type="id_Boolean"/>
