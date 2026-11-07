@@ -1,0 +1,72 @@
+{
+  "itemId" : "_DqfzINosEfGjVb1XdXSgUA",
+  "contextList" : [ {
+    "contextName" : "DWHDEV",
+    "repoId" : "_Zs_fQNiSEfGlBbYMxLBL7w",
+    "parameterList" : [ {
+      "id" : "_e8A7AdoVEfGjVb1XdXSgUA",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_e8A7AtoVEfGjVb1XdXSgUA",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_e8A7A9oVEfGjVb1XdXSgUA",
+      "name" : "DB_PASSWORD"
+    }, {
+      "id" : "_e8A7BNoVEfGjVb1XdXSgUA",
+      "name" : "LOAD_SOURCE_TAG"
+    }, {
+      "id" : "_e8A7BdoVEfGjVb1XdXSgUA",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_e8A7BtoVEfGjVb1XdXSgUA",
+      "name" : "ENV_NAME"
+    }, {
+      "id" : "_e8A7B9oVEfGjVb1XdXSgUA",
+      "name" : "FILE_CPV_POBLACION"
+    }, {
+      "id" : "_e8A7CNoVEfGjVb1XdXSgUA",
+      "name" : "FILE_CPV_HOGAR"
+    }, {
+      "id" : "_e8A7CdoVEfGjVb1XdXSgUA",
+      "name" : "FILE_CPV_VIVIENDA"
+    }, {
+      "id" : "_e8A7CtoVEfGjVb1XdXSgUA",
+      "name" : "DB_PORT"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_Zs_fQNiSEfGlBbYMxLBL7w",
+    "parameterList" : [ {
+      "id" : "_phdoINiTEfGlBbYMxLBL7w",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_phdoIdiTEfGlBbYMxLBL7w",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_phdoItiTEfGlBbYMxLBL7w",
+      "name" : "DB_PASSWORD"
+    }, {
+      "id" : "_phdoI9iTEfGlBbYMxLBL7w",
+      "name" : "LOAD_SOURCE_TAG"
+    }, {
+      "id" : "_phdoJNiTEfGlBbYMxLBL7w",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_phdoJdiTEfGlBbYMxLBL7w",
+      "name" : "ENV_NAME"
+    }, {
+      "id" : "_phdoJtiTEfGlBbYMxLBL7w",
+      "name" : "FILE_CPV_POBLACION"
+    }, {
+      "id" : "_phdoJ9iTEfGlBbYMxLBL7w",
+      "name" : "FILE_CPV_HOGAR"
+    }, {
+      "id" : "_phdoKNiTEfGlBbYMxLBL7w",
+      "name" : "FILE_CPV_VIVIENDA"
+    }, {
+      "id" : "_kNFgQNiaEfGlBbYMxLBL7w",
+      "name" : "DB_PORT"
+    } ]
+  } ]
+}
