@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <dataquality.analysis:Analysis xmi:id="_u7QlYNmmEfGXnuIHbQTDYA" name="perfilado_inec_nbi_1_1_canton_g5" creationDate="2026-11-06T00:55:56.212-0500" defaultContext="Default">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_u7QlYNmmEfGXnuIHbQTDYA" name="perfilado_inec_nbi_1_1_canton_g5" supplierDependency="_xtpRMNyKEfGlKqMMAiYwrQ" creationDate="2026-11-06T00:55:56.212-0500" defaultContext="Default">
     <clientDependency href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_qbqYLNmnEfGXnuIHbQTDYA"/>
     <taggedValue xmi:id="_u7QlYdmmEfGXnuIHbQTDYA" tag="Status" value="Draft"/>
     <taggedValue xmi:id="_u7QlYtmmEfGXnuIHbQTDYA" tag="Author" value="angel.guanio+talend@trial.ohj33qzesn2rnlm.us.qlikcloud.com"/>
@@ -25,8 +25,8 @@
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaXNi_EfGS4Oy_nGQk2w"/>
     </context>
     <results xmi:id="_u7QlZ9mmEfGXnuIHbQTDYA">
-      <resultMetadata xmi:id="_u7QlaNmmEfGXnuIHbQTDYA" executionDate="2026-11-06T01:02:36.460-0500" executionDuration="43" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYINmnEfGXnuIHbQTDYA" count="1" computed="true">
+      <resultMetadata xmi:id="_u7QlaNmmEfGXnuIHbQTDYA" executionDate="2026-11-09T17:14:13.361-0500" executionDuration="345" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYINmnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYIdmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaU9i_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
@@ -36,7 +36,7 @@
           <sqlGenericExpression xmi:id="_qfCcQ9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYItmnEfGXnuIHbQTDYA" count="1" computed="true">
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYItmnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYI9mnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaU9i_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
@@ -46,7 +46,7 @@
           <sqlGenericExpression xmi:id="_qfPQk9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYJNmnEfGXnuIHbQTDYA" count="1" computed="true" distinctValueCount="1">
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYJNmnEfGXnuIHbQTDYA" count="738" computed="true" distinctValueCount="25">
         <parameters xmi:id="_qbqYJdmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaU9i_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
@@ -56,7 +56,7 @@
           <sqlGenericExpression xmi:id="_qfV-Q9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYJtmnEfGXnuIHbQTDYA" count="1" computed="true" uniqueValueCount="1">
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYJtmnEfGXnuIHbQTDYA" count="738" computed="true" uniqueValueCount="0">
         <parameters xmi:id="_qbqYJ9mnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaU9i_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
@@ -72,7 +72,7 @@
           <sqlGenericExpression xmi:id="_qfdTCdmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYKNmnEfGXnuIHbQTDYA" count="1" computed="true" duplicateValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYKNmnEfGXnuIHbQTDYA" count="738" computed="true" duplicateValueCount="25">
         <parameters xmi:id="_qbqYKdmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaU9i_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
@@ -88,7 +88,7 @@
           <sqlGenericExpression xmi:id="_qfknydmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_qbqYKtmnEfGXnuIHbQTDYA" count="1" computed="true">
+      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_qbqYKtmnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYK9mnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaU9i_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
@@ -102,7 +102,7 @@
           <sqlGenericExpression xmi:id="_qfsjl9mnEfGXnuIHbQTDYA" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> = '' or RTRIM(LTRIM(&lt;%=__COLUMN_NAMES__%>)) = '') &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYLdmnEfGXnuIHbQTDYA" count="1" computed="true">
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYLdmnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYLtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVNi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
@@ -112,7 +112,7 @@
           <sqlGenericExpression xmi:id="_qfzRQ9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYL9mnEfGXnuIHbQTDYA" computed="true">
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYL9mnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYMNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVNi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
@@ -122,7 +122,7 @@
           <sqlGenericExpression xmi:id="_qf4Jw9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYMdmnEfGXnuIHbQTDYA" computed="true" distinctValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYMdmnEfGXnuIHbQTDYA" count="738" computed="true" distinctValueCount="244">
         <parameters xmi:id="_qbqYMtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVNi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
@@ -132,7 +132,7 @@
           <sqlGenericExpression xmi:id="_qf_eg9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYM9mnEfGXnuIHbQTDYA" computed="true" uniqueValueCount="0">
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYM9mnEfGXnuIHbQTDYA" count="738" computed="true" uniqueValueCount="0">
         <parameters xmi:id="_qbqYNNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVNi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
@@ -148,7 +148,7 @@
           <sqlGenericExpression xmi:id="_qgEXCdmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYNdmnEfGXnuIHbQTDYA" computed="true" duplicateValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYNdmnEfGXnuIHbQTDYA" count="738" computed="true" duplicateValueCount="244">
         <parameters xmi:id="_qbqYNtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVNi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
@@ -164,7 +164,7 @@
           <sqlGenericExpression xmi:id="_qgKdqdmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_qbqYN9mnEfGXnuIHbQTDYA" computed="true">
+      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_qbqYN9mnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYONmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVNi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
@@ -178,7 +178,7 @@
           <sqlGenericExpression xmi:id="_qgPWJ9mnEfGXnuIHbQTDYA" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> = '' or RTRIM(LTRIM(&lt;%=__COLUMN_NAMES__%>)) = '') &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYOdmnEfGXnuIHbQTDYA" count="1" computed="true">
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYOdmnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYOtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVdi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
@@ -188,7 +188,7 @@
           <sqlGenericExpression xmi:id="_qgVcw9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYO9mnEfGXnuIHbQTDYA" computed="true">
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYO9mnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYPNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVdi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
@@ -198,7 +198,7 @@
           <sqlGenericExpression xmi:id="_qga8U9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYPdmnEfGXnuIHbQTDYA" computed="true" distinctValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYPdmnEfGXnuIHbQTDYA" count="738" computed="true" distinctValueCount="238">
         <parameters xmi:id="_qbqYPtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVdi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
@@ -208,7 +208,7 @@
           <sqlGenericExpression xmi:id="_qgiRE9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYP9mnEfGXnuIHbQTDYA" computed="true" uniqueValueCount="0">
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYP9mnEfGXnuIHbQTDYA" count="738" computed="true" uniqueValueCount="227">
         <parameters xmi:id="_qbqYQNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVdi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
@@ -224,7 +224,7 @@
           <sqlGenericExpression xmi:id="_qgoXudmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYQdmnEfGXnuIHbQTDYA" computed="true" duplicateValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYQdmnEfGXnuIHbQTDYA" count="738" computed="true" duplicateValueCount="11">
         <parameters xmi:id="_qbqYQtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVdi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
@@ -240,7 +240,7 @@
           <sqlGenericExpression xmi:id="_qgueWdmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_qbqYQ9mnEfGXnuIHbQTDYA" computed="true">
+      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_qbqYQ9mnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYRNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVdi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
@@ -254,7 +254,7 @@
           <sqlGenericExpression xmi:id="_qg1MB9mnEfGXnuIHbQTDYA" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> = '' or RTRIM(LTRIM(&lt;%=__COLUMN_NAMES__%>)) = '') &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYRdmnEfGXnuIHbQTDYA" count="1" computed="true">
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYRdmnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYRtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVti_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
@@ -264,7 +264,7 @@
           <sqlGenericExpression xmi:id="_qg6Eg9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYR9mnEfGXnuIHbQTDYA" computed="true">
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYR9mnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYSNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVti_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
@@ -274,7 +274,7 @@
           <sqlGenericExpression xmi:id="_qhALI9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYSdmnEfGXnuIHbQTDYA" computed="true" distinctValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYSdmnEfGXnuIHbQTDYA" count="738" computed="true" distinctValueCount="732">
         <parameters xmi:id="_qbqYStmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVti_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
@@ -284,7 +284,7 @@
           <sqlGenericExpression xmi:id="_qhFDo9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYS9mnEfGXnuIHbQTDYA" computed="true" uniqueValueCount="0">
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYS9mnEfGXnuIHbQTDYA" count="738" computed="true" uniqueValueCount="726">
         <parameters xmi:id="_qbqYTNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVti_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
@@ -300,7 +300,7 @@
           <sqlGenericExpression xmi:id="_qhLKSdmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYTdmnEfGXnuIHbQTDYA" computed="true" duplicateValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYTdmnEfGXnuIHbQTDYA" count="738" computed="true" duplicateValueCount="6">
         <parameters xmi:id="_qbqYTtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaVti_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
@@ -316,7 +316,7 @@
           <sqlGenericExpression xmi:id="_qhQCydmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYT9mnEfGXnuIHbQTDYA" count="1" computed="true">
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYT9mnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYUNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaV9i_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
@@ -326,7 +326,7 @@
           <sqlGenericExpression xmi:id="_qhU7Q9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYUdmnEfGXnuIHbQTDYA" computed="true">
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYUdmnEfGXnuIHbQTDYA" count="738" nullCount="1" computed="true">
         <parameters xmi:id="_qbqYUtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaV9i_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
@@ -336,7 +336,7 @@
           <sqlGenericExpression xmi:id="_qhaa09mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYU9mnEfGXnuIHbQTDYA" computed="true" distinctValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYU9mnEfGXnuIHbQTDYA" count="738" nullCount="1" computed="true" distinctValueCount="714">
         <parameters xmi:id="_qbqYVNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaV9i_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
@@ -346,7 +346,7 @@
           <sqlGenericExpression xmi:id="_qhghc9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYVdmnEfGXnuIHbQTDYA" computed="true" uniqueValueCount="0">
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYVdmnEfGXnuIHbQTDYA" count="738" nullCount="1" computed="true" uniqueValueCount="689">
         <parameters xmi:id="_qbqYVtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaV9i_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
@@ -362,7 +362,7 @@
           <sqlGenericExpression xmi:id="_qhmoGdmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYV9mnEfGXnuIHbQTDYA" computed="true" duplicateValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYV9mnEfGXnuIHbQTDYA" count="738" nullCount="1" computed="true" duplicateValueCount="24">
         <parameters xmi:id="_qbqYWNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaV9i_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
@@ -378,7 +378,7 @@
           <sqlGenericExpression xmi:id="_qhtVydmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYWdmnEfGXnuIHbQTDYA" count="1" computed="true">
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYWdmnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYWtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaWNi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
@@ -388,7 +388,7 @@
           <sqlGenericExpression xmi:id="_qhyOQ9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYW9mnEfGXnuIHbQTDYA" computed="true">
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYW9mnEfGXnuIHbQTDYA" count="738" nullCount="1" computed="true">
         <parameters xmi:id="_qbqYXNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaWNi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
@@ -398,7 +398,7 @@
           <sqlGenericExpression xmi:id="_qh4U49mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYXdmnEfGXnuIHbQTDYA" computed="true" distinctValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYXdmnEfGXnuIHbQTDYA" count="738" nullCount="1" computed="true" distinctValueCount="710">
         <parameters xmi:id="_qbqYXtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaWNi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
@@ -408,7 +408,7 @@
           <sqlGenericExpression xmi:id="_qh_Ck9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYX9mnEfGXnuIHbQTDYA" computed="true" uniqueValueCount="0">
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYX9mnEfGXnuIHbQTDYA" count="738" nullCount="1" computed="true" uniqueValueCount="682">
         <parameters xmi:id="_qbqYYNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaWNi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
@@ -424,7 +424,7 @@
           <sqlGenericExpression xmi:id="_qiFwSdmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYYdmnEfGXnuIHbQTDYA" computed="true" duplicateValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYYdmnEfGXnuIHbQTDYA" count="738" nullCount="1" computed="true" duplicateValueCount="27">
         <parameters xmi:id="_qbqYYtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaWNi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
@@ -440,7 +440,7 @@
           <sqlGenericExpression xmi:id="_qiL26dmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYY9mnEfGXnuIHbQTDYA" count="1" computed="true">
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYY9mnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYZNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaWdi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
@@ -450,7 +450,7 @@
           <sqlGenericExpression xmi:id="_qiR9g9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYZdmnEfGXnuIHbQTDYA" computed="true">
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYZdmnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYZtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaWdi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
@@ -460,7 +460,7 @@
           <sqlGenericExpression xmi:id="_qiYrM9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYZ9mnEfGXnuIHbQTDYA" computed="true" distinctValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYZ9mnEfGXnuIHbQTDYA" count="738" computed="true" distinctValueCount="727">
         <parameters xmi:id="_qbqYaNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaWdi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
@@ -470,7 +470,7 @@
           <sqlGenericExpression xmi:id="_qieKw9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYadmnEfGXnuIHbQTDYA" computed="true" uniqueValueCount="0">
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYadmnEfGXnuIHbQTDYA" count="738" computed="true" uniqueValueCount="716">
         <parameters xmi:id="_qbqYatmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaWdi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
@@ -486,7 +486,7 @@
           <sqlGenericExpression xmi:id="_qikRadmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYa9mnEfGXnuIHbQTDYA" computed="true" duplicateValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYa9mnEfGXnuIHbQTDYA" count="738" computed="true" duplicateValueCount="11">
         <parameters xmi:id="_qbqYbNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaWdi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
@@ -502,7 +502,7 @@
           <sqlGenericExpression xmi:id="_qiupedmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYbdmnEfGXnuIHbQTDYA" count="1" computed="true">
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYbdmnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYbtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaWti_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
@@ -512,7 +512,7 @@
           <sqlGenericExpression xmi:id="_qi1XI9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYb9mnEfGXnuIHbQTDYA" computed="true">
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYb9mnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYcNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaWti_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
@@ -522,7 +522,7 @@
           <sqlGenericExpression xmi:id="_qi8r49mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYcdmnEfGXnuIHbQTDYA" computed="true" distinctValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYcdmnEfGXnuIHbQTDYA" count="738" computed="true" distinctValueCount="721">
         <parameters xmi:id="_qbqYctmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaWti_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
@@ -532,7 +532,7 @@
           <sqlGenericExpression xmi:id="_qjEAo9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYc9mnEfGXnuIHbQTDYA" computed="true" uniqueValueCount="0">
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYc9mnEfGXnuIHbQTDYA" count="738" computed="true" uniqueValueCount="705">
         <parameters xmi:id="_qbqYdNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaWti_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
@@ -548,7 +548,7 @@
           <sqlGenericExpression xmi:id="_qjKuWdmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYddmnEfGXnuIHbQTDYA" computed="true" duplicateValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYddmnEfGXnuIHbQTDYA" count="738" computed="true" duplicateValueCount="16">
         <parameters xmi:id="_qbqYdtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaWti_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
@@ -564,7 +564,7 @@
           <sqlGenericExpression xmi:id="_qjQ0-dmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYd9mnEfGXnuIHbQTDYA" count="1" computed="true">
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYd9mnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYeNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaW9i_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
@@ -574,7 +574,7 @@
           <sqlGenericExpression xmi:id="_qjW7k9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYedmnEfGXnuIHbQTDYA" computed="true">
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYedmnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYetmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaW9i_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
@@ -584,7 +584,7 @@
           <sqlGenericExpression xmi:id="_qje3Y9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYe9mnEfGXnuIHbQTDYA" computed="true" distinctValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYe9mnEfGXnuIHbQTDYA" count="738" computed="true" distinctValueCount="720">
         <parameters xmi:id="_qbqYfNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaW9i_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
@@ -594,7 +594,7 @@
           <sqlGenericExpression xmi:id="_qjkW89mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYfdmnEfGXnuIHbQTDYA" computed="true" uniqueValueCount="0">
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYfdmnEfGXnuIHbQTDYA" count="738" computed="true" uniqueValueCount="702">
         <parameters xmi:id="_qbqYftmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaW9i_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
@@ -610,7 +610,7 @@
           <sqlGenericExpression xmi:id="_qjqdmdmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYf9mnEfGXnuIHbQTDYA" computed="true" duplicateValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYf9mnEfGXnuIHbQTDYA" count="738" computed="true" duplicateValueCount="18">
         <parameters xmi:id="_qbqYgNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaW9i_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
@@ -626,7 +626,7 @@
           <sqlGenericExpression xmi:id="_qjv9KdmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYgdmnEfGXnuIHbQTDYA" count="1" computed="true">
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_qbqYgdmnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYgtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaXNi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
@@ -636,7 +636,7 @@
           <sqlGenericExpression xmi:id="_qj2Dw9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYg9mnEfGXnuIHbQTDYA" computed="true">
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_qbqYg9mnEfGXnuIHbQTDYA" count="738" computed="true">
         <parameters xmi:id="_qbqYhNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaXNi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
@@ -646,7 +646,7 @@
           <sqlGenericExpression xmi:id="_qj8xc9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYhdmnEfGXnuIHbQTDYA" computed="true" distinctValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_qbqYhdmnEfGXnuIHbQTDYA" count="738" computed="true" distinctValueCount="730">
         <parameters xmi:id="_qbqYhtmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaXNi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
@@ -656,7 +656,7 @@
           <sqlGenericExpression xmi:id="_qkCRA9mnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYh9mnEfGXnuIHbQTDYA" computed="true" uniqueValueCount="0">
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_qbqYh9mnEfGXnuIHbQTDYA" count="738" computed="true" uniqueValueCount="722">
         <parameters xmi:id="_qbqYiNmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaXNi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
@@ -672,7 +672,7 @@
           <sqlGenericExpression xmi:id="_qkHwmdmnEfGXnuIHbQTDYA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYidmnEfGXnuIHbQTDYA" computed="true" duplicateValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_qbqYidmnEfGXnuIHbQTDYA" count="738" computed="true" duplicateValueCount="8">
         <parameters xmi:id="_qbqYitmnEfGXnuIHbQTDYA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_1_1_Pobreza_población_por_cantón_0.1.item#_MknaXNi_EfGS4Oy_nGQk2w"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
@@ -692,6 +692,9 @@
     <parameters xmi:id="_u7QladmmEfGXnuIHbQTDYA" dataFilter="_5tCs9NmmEfGXnuIHbQTDYA" analysisType="Multiple Column Analysis" executionLanguage="Java"/>
     <contextType xmi:id="_5tCs8NmmEfGXnuIHbQTDYA" confirmationNeeded="false" hide="false" name="Default"/>
   </dataquality.analysis:Analysis>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_xtpRMNyKEfGlKqMMAiYwrQ" kind="Usage" supplier="_u7QlYNmmEfGXnuIHbQTDYA">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/R_inec_nbi_1_1_canton_g5_0.1.rep#_xtoDENyKEfGlKqMMAiYwrQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
   <dataquality.domain:Domain xmi:id="_5tCs9NmmEfGXnuIHbQTDYA" name="perfilado_inec_nbi_1_1_canton_g5">
     <ranges xmi:id="_5tCs9dmmEfGXnuIHbQTDYA">
       <expressions xmi:id="_5tCs9tmmEfGXnuIHbQTDYA">

@@ -11,6 +11,31 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>.R_Analisis_INEC_NBI_10.2_pobreza_por_parroquia-20261109-1710-00040.xls</name>
+			<type>1</type>
+			<location>C:/TalendWorkspaceNuevo/Dataton_G05-899033232/PERFILADO Y REPORTES/R_Analisis_INEC_NBI_10.2_pobreza_por_parroquia-20261109-1710-00040.xls</location>
+		</link>
+		<link>
+			<name>.R_Analisis_INEC_NBI_8.1_canton_provincia-20261109-1711-00031.xls</name>
+			<type>1</type>
+			<location>C:/TalendWorkspaceNuevo/Dataton_G05-899033232/PERFILADO Y REPORTES/R_Analisis_INEC_NBI_8.1_canton_provincia-20261109-1711-00031.xls</location>
+		</link>
+		<link>
+			<name>.R_Analisis_INEC_NBI_8.2_pobreza_por_parroquia-20261109-1712-00032.xls</name>
+			<type>1</type>
+			<location>C:/TalendWorkspaceNuevo/Dataton_G05-899033232/PERFILADO Y REPORTES/R_Analisis_INEC_NBI_8.2_pobreza_por_parroquia-20261109-1712-00032.xls</location>
+		</link>
+		<link>
+			<name>.R_Analisis_INEC_NBI_9.1_pobreza_extrema_por_NBI-20261109-1713-00008.xls</name>
+			<type>1</type>
+			<location>C:/TalendWorkspaceNuevo/Dataton_G05-899033232/PERFILADO Y REPORTES/R_Analisis_INEC_NBI_9.1_pobreza_extrema_por_NBI-20261109-1713-00008.xls</location>
+		</link>
+		<link>
+			<name>.R_inec_nbi_1_1_canton_g5-20261109-1714-00014.xls</name>
+			<type>1</type>
+			<location>C:/TalendWorkspaceNuevo/Dataton_G05-899033232/PERFILADO Y REPORTES/R_inec_nbi_1_1_canton_g5-20261109-1714-00014.xls</location>
+		</link>
+		<link>
 			<name>.reporte analisis pobreza canton-20261106-1143-00035.pdf</name>
 			<type>1</type>
 			<location>C:/Users/shadi/Downloads/reportedataton/reporte analisis pobreza canton-20261106-1143-00035.pdf</location>
@@ -19,6 +44,11 @@
 			<name>.reporte analisis pobreza canton-20261106-1144-00014.pdf</name>
 			<type>1</type>
 			<location>C:/Users/shadi/Downloads/reportedataton/reporte analisis pobreza canton-20261106-1144-00014.pdf</location>
+		</link>
+		<link>
+			<name>.reporte analisis pobreza canton-20261109-1708-00024.xls</name>
+			<type>1</type>
+			<location>C:/TalendWorkspaceNuevo/Dataton_G05-899033232/PERFILADO Y REPORTES/reporte analisis pobreza canton-20261109-1708-00024.xls</location>
 		</link>
 	</linkedResources>
 </projectDescription>

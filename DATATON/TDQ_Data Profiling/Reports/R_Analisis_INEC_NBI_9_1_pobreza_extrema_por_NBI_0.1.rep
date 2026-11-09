@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.reports="http://dataquality.reports" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_qyBi4NyKEfGlKqMMAiYwrQ" name="R_Analisis_INEC_NBI_9.1_pobreza_extrema_por_NBI" creationDate="2026-11-09T17:12:35.980-0500" defaultContext="Default">
+  <clientDependency href="../Analyses/Analisis_INEC_NBI_9_1_pobreza_extrema_por_NBI_0.1.ana#_qyDYENyKEfGlKqMMAiYwrQ"/>
+  <taggedValue xmi:id="_qyBi4dyKEfGlKqMMAiYwrQ" tag="OutputFolder" value="C:\TalendWorkspaceNuevo\Dataton_G05-899033232\PERFILADO Y REPORTES"/>
+  <taggedValue xmi:id="_qyBi4tyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_qyBi49yKEfGlKqMMAiYwrQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_qyBi5NyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_qyBi5dyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_qyBi5tyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_qyBi59yKEfGlKqMMAiYwrQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_qyBi6NyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_qyBi6dyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_qyBi6tyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:uDLg5H/3aUGv8lCXotN62xVibkmC7w8MROVokw=="/>
+  <taggedValue xmi:id="_qyBi69yKEfGlKqMMAiYwrQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_qyBi7NyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/C:\TalendWorkspaceNuevo\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_qyBi7dyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_qyBi7tyKEfGlKqMMAiYwrQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_qyBi79yKEfGlKqMMAiYwrQ" tag="Author" value="ariel.chango@trial.hh09z79gjpqie8q.us.qlikcloud.com"/>
+  <taggedValue xmi:id="_qz_RwNyKEfGlKqMMAiYwrQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_qz_RwdyKEfGlKqMMAiYwrQ" tag="OutputType" value="xls"/>
+  <taggedValue xmi:id="_uIRtANyKEfGlKqMMAiYwrQ" tag="OutputFileName" value="R_Analisis_INEC_NBI_9.1_pobreza_extrema_por_NBI"/>
+  <taggedValue xmi:id="_u1sMoNyKEfGlKqMMAiYwrQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_vBBS4NyKEfGlKqMMAiYwrQ" tag="Purpose" value="R_Analisis_INEC_NBI_9.1_pobreza_extrema_por_NBI"/>
+  <taggedValue xmi:id="_vBBS4dyKEfGlKqMMAiYwrQ" tag="Description" value="Reporte de R_Analisis_INEC_NBI_9.1_pobreza_extrema_por_NBI"/>
+  <taggedValue xmi:id="_vBBS4tyKEfGlKqMMAiYwrQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_vBChAdyKEfGlKqMMAiYwrQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="_vBChAtyKEfGlKqMMAiYwrQ" tag="REP_AUTHPASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_vBChA9yKEfGlKqMMAiYwrQ" tag="REP_CLIENTSECRET_CONTEXT" value="false"/>
+  <presentationParams xmi:id="_u1szsNyKEfGlKqMMAiYwrQ" type="BOTTOM_RIGHT_PRESENTATIONKEY">
+    <formula xmi:id="_u1szsdyKEfGlKqMMAiYwrQ">
+      <expression xsi:type="relational:TdExpression" xmi:id="_u1szstyKEfGlKqMMAiYwrQ" body="Report Author"/>
+    </formula>
+  </presentationParams>
+  <analysisMap xmi:id="_qyBi8NyKEfGlKqMMAiYwrQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/Analisis_INEC_NBI_9_1_pobreza_extrema_por_NBI_0.1.ana#_W2fAUNn_EfGo9sFIfF8LhA"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_vbPJsNyKEfGlKqMMAiYwrQ" executionDate="2026-11-09T17:13:06.929-0500" executionDuration="218" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+  <context xmi:id="_vBChANyKEfGlKqMMAiYwrQ" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>

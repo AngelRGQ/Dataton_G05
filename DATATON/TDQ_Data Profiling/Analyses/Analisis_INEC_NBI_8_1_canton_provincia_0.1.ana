@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <dataquality.analysis:Analysis xmi:id="_Z6UrINoHEfGjVb1XdXSgUA" name="Analisis_INEC_NBI_8.1_canton_provincia" creationDate="2026-11-06T12:27:56.358-0500" defaultContext="Default">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_Z6UrINoHEfGjVb1XdXSgUA" name="Analisis_INEC_NBI_8.1_canton_provincia" supplierDependency="_cBj_QNyKEfGlKqMMAiYwrQ" creationDate="2026-11-06T12:27:56.358-0500" defaultContext="Default">
     <clientDependency href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_8_1_canton_provincia_0.1.item#_DZftENoIEfGjVb1XdXSgUA"/>
     <taggedValue xmi:id="_Z6UrIdoHEfGjVb1XdXSgUA" tag="Status" value="Draft"/>
     <taggedValue xmi:id="_Z6UrItoHEfGjVb1XdXSgUA" tag="Author" value="jermin.vasquez@trial.8mbr1j3q00lfq88.us.qlikcloud.com"/>
@@ -21,7 +21,7 @@
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_8_1_canton_provincia_0.1.item#_pHkaSNi7EfGS4Oy_nGQk2w"/>
     </context>
     <results xmi:id="_Z6UrJ9oHEfGjVb1XdXSgUA">
-      <resultMetadata xmi:id="_Z6UrKNoHEfGjVb1XdXSgUA" executionDate="2026-11-06T12:33:01.922-0500" executionDuration="189" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <resultMetadata xmi:id="_Z6UrKNoHEfGjVb1XdXSgUA" executionDate="2026-11-09T17:11:29.609-0500" executionDuration="267" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_HL5AoNoIEfGjVb1XdXSgUA" count="738" computed="true">
         <parameters xmi:id="_HL5nsNoIEfGjVb1XdXSgUA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_8_1_canton_provincia_0.1.item#_pHkaQ9i7EfGS4Oy_nGQk2w"/>
@@ -584,6 +584,9 @@
     <parameters xmi:id="_Z6UrKdoHEfGjVb1XdXSgUA" dataFilter="_k6Ar0NoHEfGjVb1XdXSgUA" analysisType="Multiple Column Analysis" executionLanguage="Java"/>
     <contextType xmi:id="_k57zUNoHEfGjVb1XdXSgUA" confirmationNeeded="false" hide="false" name="Default"/>
   </dataquality.analysis:Analysis>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_cBj_QNyKEfGlKqMMAiYwrQ" kind="Usage" supplier="_Z6UrINoHEfGjVb1XdXSgUA">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/R_Analisis_INEC_NBI_8_1_canton_provincia_0.1.rep#_cBiKENyKEfGlKqMMAiYwrQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
   <dataquality.domain:Domain xmi:id="_k6Ar0NoHEfGjVb1XdXSgUA" name="Analisis_INEC_NBI_8.1_canton_provincia">
     <ranges xmi:id="_k6Ar0doHEfGjVb1XdXSgUA">
       <expressions xmi:id="_k6Ar0toHEfGjVb1XdXSgUA">

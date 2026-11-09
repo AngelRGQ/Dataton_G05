@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <dataquality.analysis:Analysis xmi:id="_OAi3MNn7EfG-VMLrXyu3fQ" name="Analisis_BDDenemdu_personas_2022_anual" creationDate="2026-11-06T11:00:42.530-0500" defaultContext="Default">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_OAi3MNn7EfG-VMLrXyu3fQ" name="Analisis_BDDenemdu_personas_2022_anual" supplierDependency="_lxViINyIEfGlKqMMAiYwrQ" creationDate="2026-11-06T11:00:42.530-0500" defaultContext="Default">
     <clientDependency href="../../metadata/fileDelimited/lago_de_datos_grupo5/BDDenemdu_personas_2022_anual_0.1.item#_nTWNtNn6EfG-VMLrXyu3fQ"/>
     <taggedValue xmi:id="_OAi3Mdn7EfG-VMLrXyu3fQ" tag="Status" value="Draft"/>
     <taggedValue xmi:id="_OAi3Mtn7EfG-VMLrXyu3fQ" tag="Author" value="mulloa@trial.oqsu61mxbm1ip6b.us.qlikcloud.com"/>
@@ -16351,6 +16351,18 @@
       <contextParameter xmi:id="_phdoKNiTEfGlBbYMxLBL7w" comment="" name="FILE_CPV_VIVIENDA" prompt="FILE_CPV_VIVIENDA?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/"/>
       <contextParameter xmi:id="_phdoI9iTEfGlBbYMxLBL7w" comment="" name="LOAD_SOURCE_TAG" prompt="LOAD_SOURCE_TAG?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dataton_grupo5"/>
     </contextType>
+    <contextType xmi:id="_kOZIsNyIEfGlKqMMAiYwrQ" confirmationNeeded="false" hide="false" name="DWHDEV">
+      <contextParameter xmi:id="_kOZIsdyIEfGlKqMMAiYwrQ" comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="DWHDEV"/>
+      <contextParameter xmi:id="_kOZIstyIEfGlKqMMAiYwrQ" comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dev_genius"/>
+      <contextParameter xmi:id="_kOZIs9yIEfGlKqMMAiYwrQ" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="CambiarEsta#2026"/>
+      <contextParameter xmi:id="_kOZItNyIEfGlKqMMAiYwrQ" comment="" name="LOAD_SOURCE_TAG" prompt="LOAD_SOURCE_TAG?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dataton_grupo5"/>
+      <contextParameter xmi:id="_kOZItdyIEfGlKqMMAiYwrQ" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="209.50.245.36"/>
+      <contextParameter xmi:id="_kOZIttyIEfGlKqMMAiYwrQ" comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dev"/>
+      <contextParameter xmi:id="_kOZIt9yIEfGlKqMMAiYwrQ" comment="" name="FILE_CPV_POBLACION" prompt="FILE_CPV_POBLACION?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/"/>
+      <contextParameter xmi:id="_kOZIuNyIEfGlKqMMAiYwrQ" comment="" name="FILE_CPV_HOGAR" prompt="FILE_CPV_HOGAR?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/"/>
+      <contextParameter xmi:id="_kOZIudyIEfGlKqMMAiYwrQ" comment="" name="FILE_CPV_VIVIENDA" prompt="FILE_CPV_VIVIENDA?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/"/>
+      <contextParameter xmi:id="_kOZIutyIEfGlKqMMAiYwrQ" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="3306"/>
+    </contextType>
   </dataquality.analysis:Analysis>
   <dataquality.domain:Domain xmi:id="_iIO-Ndn7EfG-VMLrXyu3fQ" name="Analisis_BDDenemdu_personas_2022_anual">
     <ranges xmi:id="_iIO-Ntn7EfG-VMLrXyu3fQ">
@@ -16359,4 +16371,7 @@
       </expressions>
     </ranges>
   </dataquality.domain:Domain>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_lxViINyIEfGlKqMMAiYwrQ" kind="Usage" supplier="_OAi3MNn7EfG-VMLrXyu3fQ">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/R_BDDenemdu_personas_2022_anual_0.1.rep#_lxQpoNyIEfGlKqMMAiYwrQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>

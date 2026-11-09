@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_xtoDENyKEfGlKqMMAiYwrQ" name="R_inec_nbi_1_1_canton_g5" creationDate="2026-11-09T17:13:22.494-0500" defaultContext="Default">
+  <clientDependency href="../Analyses/perfilado_inec_nbi_1_1_canton_g5_0.1.ana#_xtpRMNyKEfGlKqMMAiYwrQ"/>
+  <taggedValue xmi:id="_xtoDEdyKEfGlKqMMAiYwrQ" tag="OutputFolder" value="C:\TalendWorkspaceNuevo\Dataton_G05-899033232\PERFILADO Y REPORTES"/>
+  <taggedValue xmi:id="_xtoDEtyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_xtoDE9yKEfGlKqMMAiYwrQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_xtoDFNyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_xtoDFdyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_xtoDFtyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_xtoDF9yKEfGlKqMMAiYwrQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_xtoDGNyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_xtoDGdyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_xtoDGtyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:UGP/jH6doe/NYXNDA5mLv8qzjaVcz74ghVf5pQ=="/>
+  <taggedValue xmi:id="_xtoDG9yKEfGlKqMMAiYwrQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_xtoDHNyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/C:\TalendWorkspaceNuevo\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_xtoDHdyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_xtoDHtyKEfGlKqMMAiYwrQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_xtoDH9yKEfGlKqMMAiYwrQ" tag="Author" value="ariel.chango@trial.hh09z79gjpqie8q.us.qlikcloud.com"/>
+  <taggedValue xmi:id="_xvcA8NyKEfGlKqMMAiYwrQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_xvcA8dyKEfGlKqMMAiYwrQ" tag="OutputType" value="xls"/>
+  <taggedValue xmi:id="_4SCyUNyKEfGlKqMMAiYwrQ" tag="OutputFileName" value="R_inec_nbi_1_1_canton_g5"/>
+  <taggedValue xmi:id="_41mLUNyKEfGlKqMMAiYwrQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_4-vgQNyKEfGlKqMMAiYwrQ" tag="Purpose" value="R_inec_nbi_1_1_canton_g5"/>
+  <taggedValue xmi:id="_4-vgQdyKEfGlKqMMAiYwrQ" tag="Description" value="Reporte de R_inec_nbi_1_1_canton_g5"/>
+  <taggedValue xmi:id="_4-vgQtyKEfGlKqMMAiYwrQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_4-wHUdyKEfGlKqMMAiYwrQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="_4-wHUtyKEfGlKqMMAiYwrQ" tag="REP_AUTHPASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_4-wHU9yKEfGlKqMMAiYwrQ" tag="REP_CLIENTSECRET_CONTEXT" value="false"/>
+  <analysisMap xmi:id="_xtoDINyKEfGlKqMMAiYwrQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/perfilado_inec_nbi_1_1_canton_g5_0.1.ana#_u7QlYNmmEfGXnuIHbQTDYA"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_5WBX0NyKEfGlKqMMAiYwrQ" executionDate="2026-11-09T17:14:13.360-0500" executionDuration="349" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+  <context xmi:id="_4-wHUNyKEfGlKqMMAiYwrQ" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>

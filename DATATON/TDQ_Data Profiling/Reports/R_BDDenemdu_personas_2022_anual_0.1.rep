@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_lxQpoNyIEfGlKqMMAiYwrQ" name="R_BDDenemdu_personas_2022_anual" creationDate="2026-11-09T16:57:43.306-0500" defaultContext="Default">
+  <clientDependency href="../Analyses/Analisis_BDDenemdu_personas_2022_anual_0.1.ana#_lxViINyIEfGlKqMMAiYwrQ"/>
+  <taggedValue xmi:id="_lxQpodyIEfGlKqMMAiYwrQ" tag="OutputFolder" value="C:\TalendWorkspaceNuevo\Dataton_G05-899033232\PERFILADO Y REPORTES"/>
+  <taggedValue xmi:id="_lxQpotyIEfGlKqMMAiYwrQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_lxQpo9yIEfGlKqMMAiYwrQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_lxQppNyIEfGlKqMMAiYwrQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_lxQppdyIEfGlKqMMAiYwrQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_lxQpptyIEfGlKqMMAiYwrQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_lxQpp9yIEfGlKqMMAiYwrQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_lxQpqNyIEfGlKqMMAiYwrQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_lxQpqdyIEfGlKqMMAiYwrQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_lxQpqtyIEfGlKqMMAiYwrQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:C1IK6dXJ/3yEcAtK+JjKGd3xKEvS7kmIwoFIGg=="/>
+  <taggedValue xmi:id="_lxQpq9yIEfGlKqMMAiYwrQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_lxQprNyIEfGlKqMMAiYwrQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/C:\TalendWorkspaceNuevo\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_lxQprdyIEfGlKqMMAiYwrQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_lxQprtyIEfGlKqMMAiYwrQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_lxQpr9yIEfGlKqMMAiYwrQ" tag="Author" value="ariel.chango@trial.hh09z79gjpqie8q.us.qlikcloud.com"/>
+  <taggedValue xmi:id="_l1cmENyIEfGlKqMMAiYwrQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_l1cmEdyIEfGlKqMMAiYwrQ" tag="OutputType" value="xls"/>
+  <taggedValue xmi:id="_q5Mz0NyIEfGlKqMMAiYwrQ" tag="OutputFileName" value="R_BDDenemdu_personas_2022_anual"/>
+  <taggedValue xmi:id="_q5Mz0dyIEfGlKqMMAiYwrQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_LhSgUNyJEfGlKqMMAiYwrQ" tag="Purpose" value="R_BDDenemdu_personas_2022_anual"/>
+  <taggedValue xmi:id="_LhSgUdyJEfGlKqMMAiYwrQ" tag="Description" value="Reporte de R_BDDenemdu_personas_2022_anual"/>
+  <taggedValue xmi:id="_LhTHYNyJEfGlKqMMAiYwrQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_LhUVltyJEfGlKqMMAiYwrQ" tag="REP_LAST_RUN_CONTEXT" value="DWHDEV"/>
+  <taggedValue xmi:id="_LhUVl9yJEfGlKqMMAiYwrQ" tag="REP_AUTHPASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_LhUVmNyJEfGlKqMMAiYwrQ" tag="REP_CLIENTSECRET_CONTEXT" value="false"/>
+  <analysisMap xmi:id="_lxQpsNyIEfGlKqMMAiYwrQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/Analisis_BDDenemdu_personas_2022_anual_0.1.ana#_OAi3MNn7EfG-VMLrXyu3fQ"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_zcDJMNyJEfGlKqMMAiYwrQ" executionDate="2026-11-09T17:01:59.140-0500" executionDuration="265437" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+  <context xmi:id="_LhUVgNyJEfGlKqMMAiYwrQ" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_LhUVgdyJEfGlKqMMAiYwrQ" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="209.50.245.36"/>
+    <contextParameter xmi:id="_LhUVgtyJEfGlKqMMAiYwrQ" comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="DSADEV"/>
+    <contextParameter xmi:id="_LhUVg9yJEfGlKqMMAiYwrQ" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="CambiarEsta#2026"/>
+    <contextParameter xmi:id="_LhUVhNyJEfGlKqMMAiYwrQ" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_LhUVhdyJEfGlKqMMAiYwrQ" comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dev_genius"/>
+    <contextParameter xmi:id="_LhUVhtyJEfGlKqMMAiYwrQ" comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dev"/>
+    <contextParameter xmi:id="_LhUVh9yJEfGlKqMMAiYwrQ" comment="" name="FILE_CPV_HOGAR" prompt="FILE_CPV_HOGAR?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/"/>
+    <contextParameter xmi:id="_LhUViNyJEfGlKqMMAiYwrQ" comment="" name="FILE_CPV_POBLACION" prompt="FILE_CPV_POBLACION?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/"/>
+    <contextParameter xmi:id="_LhUVidyJEfGlKqMMAiYwrQ" comment="" name="FILE_CPV_VIVIENDA" prompt="FILE_CPV_VIVIENDA?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/"/>
+    <contextParameter xmi:id="_LhUVityJEfGlKqMMAiYwrQ" comment="" name="LOAD_SOURCE_TAG" prompt="LOAD_SOURCE_TAG?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dataton_grupo5"/>
+  </context>
+  <context xmi:id="_LhUVi9yJEfGlKqMMAiYwrQ" confirmationNeeded="false" hide="false" name="DWHDEV">
+    <contextParameter xmi:id="_LhUVjNyJEfGlKqMMAiYwrQ" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="209.50.245.36"/>
+    <contextParameter xmi:id="_LhUVjdyJEfGlKqMMAiYwrQ" comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="DWHDEV"/>
+    <contextParameter xmi:id="_LhUVjtyJEfGlKqMMAiYwrQ" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="CambiarEsta#2026"/>
+    <contextParameter xmi:id="_LhUVj9yJEfGlKqMMAiYwrQ" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_LhUVkNyJEfGlKqMMAiYwrQ" comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dev_genius"/>
+    <contextParameter xmi:id="_LhUVkdyJEfGlKqMMAiYwrQ" comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dev"/>
+    <contextParameter xmi:id="_LhUVktyJEfGlKqMMAiYwrQ" comment="" name="FILE_CPV_HOGAR" prompt="FILE_CPV_HOGAR?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/"/>
+    <contextParameter xmi:id="_LhUVk9yJEfGlKqMMAiYwrQ" comment="" name="FILE_CPV_POBLACION" prompt="FILE_CPV_POBLACION?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/"/>
+    <contextParameter xmi:id="_LhUVlNyJEfGlKqMMAiYwrQ" comment="" name="FILE_CPV_VIVIENDA" prompt="FILE_CPV_VIVIENDA?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="C:/DATASET/"/>
+    <contextParameter xmi:id="_LhUVldyJEfGlKqMMAiYwrQ" comment="" name="LOAD_SOURCE_TAG" prompt="LOAD_SOURCE_TAG?" promptNeeded="false" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="dataton_grupo5"/>
+  </context>
+</dataquality.reports:TdReport>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <dataquality.analysis:Analysis xmi:id="_W2fAUNn_EfGo9sFIfF8LhA" name="Analisis_INEC_NBI_9.1_pobreza_extrema_por_NBI" creationDate="2026-11-06T11:30:19.859-0500" defaultContext="Default">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_W2fAUNn_EfGo9sFIfF8LhA" name="Analisis_INEC_NBI_9.1_pobreza_extrema_por_NBI" supplierDependency="_qyDYENyKEfGlKqMMAiYwrQ" creationDate="2026-11-06T11:30:19.859-0500" defaultContext="Default">
     <clientDependency href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_9_1_Pobreza_extrema_por_NBI_0.1.item#_2a63gtn_EfGo9sFIfF8LhA"/>
     <taggedValue xmi:id="_W2fAUdn_EfGo9sFIfF8LhA" tag="Status" value="Draft"/>
     <taggedValue xmi:id="_W2fAUtn_EfGo9sFIfF8LhA" tag="Author" value="ariel.chango@trial.hh09z79gjpqie8q.us.qlikcloud.com"/>
@@ -21,7 +21,7 @@
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_9_1_Pobreza_extrema_por_NBI_0.1.item#_03-JaNi_EfGS4Oy_nGQk2w"/>
     </context>
     <results xmi:id="_W2fAV9n_EfGo9sFIfF8LhA">
-      <resultMetadata xmi:id="_W2fAWNn_EfGo9sFIfF8LhA" executionDate="2026-11-06T11:33:54.551-0500" executionDuration="284" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <resultMetadata xmi:id="_W2fAWNn_EfGo9sFIfF8LhA" executionDate="2026-11-09T17:13:06.930-0500" executionDuration="214" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
       <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_2a63cNn_EfGo9sFIfF8LhA" count="738" computed="true">
         <parameters xmi:id="_2a63cdn_EfGo9sFIfF8LhA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_9_1_Pobreza_extrema_por_NBI_0.1.item#_03-JY9i_EfGS4Oy_nGQk2w"/>
@@ -646,6 +646,9 @@
     <parameters xmi:id="_W2fAWdn_EfGo9sFIfF8LhA" dataFilter="_rQJoI9n_EfGo9sFIfF8LhA" analysisType="Multiple Column Analysis" executionLanguage="Java"/>
     <contextType xmi:id="_rQJBENn_EfGo9sFIfF8LhA" confirmationNeeded="false" hide="false" name="Default"/>
   </dataquality.analysis:Analysis>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_qyDYENyKEfGlKqMMAiYwrQ" kind="Usage" supplier="_W2fAUNn_EfGo9sFIfF8LhA">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/R_Analisis_INEC_NBI_9_1_pobreza_extrema_por_NBI_0.1.rep#_qyBi4NyKEfGlKqMMAiYwrQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
   <dataquality.domain:Domain xmi:id="_rQJoI9n_EfGo9sFIfF8LhA" name="Analisis_INEC_NBI_9.1_pobreza_extrema_por_NBI">
     <ranges xmi:id="_rQJoJNn_EfGo9sFIfF8LhA">
       <expressions xmi:id="_rQJoJdn_EfGo9sFIfF8LhA">

@@ -26,7 +26,7 @@
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_10_1_pobreza_por_cantón_0.1.item#_S0u_fNi9EfGS4Oy_nGQk2w"/>
     </context>
     <results xmi:id="_Oz_vA9mbEfGGcpTvbYcMxw">
-      <resultMetadata xmi:id="_Oz_vBNmbEfGGcpTvbYcMxw" executionDate="2026-11-06T11:44:12.879-0500" executionDuration="461" message="" executionNumber="4" lastRunOk="true" lastExecutionNumberOk="4"/>
+      <resultMetadata xmi:id="_Oz_vBNmbEfGGcpTvbYcMxw" executionDate="2026-11-09T17:08:15.992-0500" executionDuration="568" message="" executionNumber="5" lastRunOk="true" lastExecutionNumberOk="5"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_K4V8UNmcEfGGcpTvbYcMxw" count="738" computed="true">
         <parameters xmi:id="_K4WjYNmcEfGGcpTvbYcMxw"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_10_1_pobreza_por_cantón_0.1.item#_S0u_cti9EfGS4Oy_nGQk2w"/>

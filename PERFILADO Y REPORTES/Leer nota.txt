@@ -1,0 +1,9 @@
+### Nota aclaratoria sobre el perfilado de datos
+
+Debido al gran volumen de registros del dataset del proyecto **INEC G5 – Análisis de Pobreza Multidimensional en Ecuador**, no se generó un reporte independiente de perfilado de datos, ya que su procesamiento implicaba un alto consumo de recursos.
+
+Sin embargo, **el perfilado de datos sí se realizó mediante Talend Studio**, permitiendo analizar las características y la calidad de los datos utilizados en el proyecto.
+
+La evidencia de este proceso se encuentra disponible en la sección **Profiling de Talend Studio**, donde se pueden consultar los análisis de perfilado realizados.
+
+Por lo tanto, la ausencia de un reporte exportado no significa que se haya omitido el proceso de perfilado, sino que se documentó directamente dentro de la herramienta utilizada.

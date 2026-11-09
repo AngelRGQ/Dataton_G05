@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_QLBrkNyJEfGlKqMMAiYwrQ" name="Analisis_BDDenemdu_vivienda_2022_anual" creationDate="2026-11-09T17:02:27.910-0500">
+  <clientDependency href="../Analyses/Analisis_BDDenemdu_vivienda_2022_anual_0.1.ana#_QLDgwNyJEfGlKqMMAiYwrQ"/>
+  <taggedValue xmi:id="_QLBrkdyJEfGlKqMMAiYwrQ" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_QLBrktyJEfGlKqMMAiYwrQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_QLBrk9yJEfGlKqMMAiYwrQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_QLBrlNyJEfGlKqMMAiYwrQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_QLBrldyJEfGlKqMMAiYwrQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_QLBrltyJEfGlKqMMAiYwrQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_QLBrl9yJEfGlKqMMAiYwrQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_QLBrmNyJEfGlKqMMAiYwrQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_QLBrmdyJEfGlKqMMAiYwrQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_QLBrmtyJEfGlKqMMAiYwrQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:Q2HnoTKSVTJuEXbRD8DfFRWE7HhcdZuS7KsHdA=="/>
+  <taggedValue xmi:id="_QLBrm9yJEfGlKqMMAiYwrQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_QLBrnNyJEfGlKqMMAiYwrQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:C:\TalendWorkspaceNuevo\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_QLBrndyJEfGlKqMMAiYwrQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_QLBrntyJEfGlKqMMAiYwrQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_QLBrn9yJEfGlKqMMAiYwrQ" tag="Author" value="mulloa@trial.oqsu61mxbm1ip6b.us.qlikcloud.com"/>
+  <analysisMap xmi:id="_QLBroNyJEfGlKqMMAiYwrQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/Analisis_BDDenemdu_vivienda_2022_anual_0.1.ana#_h8rp8NoFEfG1mLTNfSJ-KA"/>
+  </analysisMap>
+</dataquality.reports:TdReport>

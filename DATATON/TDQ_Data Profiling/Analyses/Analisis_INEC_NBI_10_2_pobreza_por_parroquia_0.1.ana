@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <dataquality.analysis:Analysis xmi:id="_HcZMsNoGEfGjVb1XdXSgUA" name="Analisis_INEC_NBI_10.2_pobreza_por_parroquia" creationDate="2026-11-06T12:18:42.899-0500" defaultContext="Default">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_HcZMsNoGEfGjVb1XdXSgUA" name="Analisis_INEC_NBI_10.2_pobreza_por_parroquia" supplierDependency="_TAXrkNyKEfGlKqMMAiYwrQ" creationDate="2026-11-06T12:18:42.899-0500" defaultContext="Default">
     <clientDependency href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_10_2_pobreza_por_parroquia_0.1.item#_v6S-6doGEfGjVb1XdXSgUA"/>
     <taggedValue xmi:id="_HcZzwNoGEfGjVb1XdXSgUA" tag="Status" value="Draft"/>
     <taggedValue xmi:id="_HcZzwdoGEfGjVb1XdXSgUA" tag="Author" value="jermin.vasquez@trial.8mbr1j3q00lfq88.us.qlikcloud.com"/>
@@ -27,7 +27,7 @@
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_10_2_pobreza_por_parroquia_0.1.item#_Rd55_ti-EfGS4Oy_nGQk2w"/>
     </context>
     <results xmi:id="_Hcaa0toGEfGjVb1XdXSgUA">
-      <resultMetadata xmi:id="_Hcaa09oGEfGjVb1XdXSgUA" executionDate="2026-11-06T12:23:17.261-0500" executionDuration="1181" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <resultMetadata xmi:id="_Hcaa09oGEfGjVb1XdXSgUA" executionDate="2026-11-09T17:10:38.078-0500" executionDuration="1242" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_v6SX0NoGEfGjVb1XdXSgUA" count="3040" computed="true">
         <parameters xmi:id="_v6SX0doGEfGjVb1XdXSgUA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/lago_de_datos_grupo5/INEC_NBI_10_2_pobreza_por_parroquia_0.1.item#_Rd5589i-EfGS4Oy_nGQk2w"/>
@@ -1047,6 +1047,9 @@
       <contextParameter xmi:id="_fLs82toVEfGjVb1XdXSgUA" comment="" name="DB_PORT" prompt="DB_PORT?" repositoryContextId="_Zs_fQNiSEfGlBbYMxLBL7w" type="id_String" value="3306"/>
     </contextType>
   </dataquality.analysis:Analysis>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_TAXrkNyKEfGlKqMMAiYwrQ" kind="Usage" supplier="_HcZMsNoGEfGjVb1XdXSgUA">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/R_Analisis_INEC_NBI_10_2_pobreza_por_parroquia_0.1.rep#_TAVPUNyKEfGlKqMMAiYwrQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
   <dataquality.domain:Domain xmi:id="_mtLvENoGEfGjVb1XdXSgUA" name="Analisis_INEC_NBI_10.2_pobreza_por_parroquia">
     <ranges xmi:id="_mtLvEdoGEfGjVb1XdXSgUA">
       <expressions xmi:id="_mtLvEtoGEfGjVb1XdXSgUA">

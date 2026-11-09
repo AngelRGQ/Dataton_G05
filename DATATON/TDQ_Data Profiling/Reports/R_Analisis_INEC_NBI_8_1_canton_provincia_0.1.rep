@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_cBiKENyKEfGlKqMMAiYwrQ" name="R_Analisis_INEC_NBI_8.1_canton_provincia" creationDate="2026-11-09T17:10:56.943-0500" defaultContext="Default">
+  <clientDependency href="../Analyses/Analisis_INEC_NBI_8_1_canton_provincia_0.1.ana#_cBj_QNyKEfGlKqMMAiYwrQ"/>
+  <taggedValue xmi:id="_cBiKEdyKEfGlKqMMAiYwrQ" tag="OutputFolder" value="C:\TalendWorkspaceNuevo\Dataton_G05-899033232\PERFILADO Y REPORTES"/>
+  <taggedValue xmi:id="_cBiKEtyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_cBiKE9yKEfGlKqMMAiYwrQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_cBiKFNyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_cBiKFdyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_cBiKFtyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_cBiKF9yKEfGlKqMMAiYwrQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_cBiKGNyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_cBiKGdyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_cBiKGtyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:LyBfgWwQILLe3KiDqZOe32u4uAvwVAXLEqQZAQ=="/>
+  <taggedValue xmi:id="_cBiKG9yKEfGlKqMMAiYwrQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_cBiKHNyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/C:\TalendWorkspaceNuevo\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_cBiKHdyKEfGlKqMMAiYwrQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_cBiKHtyKEfGlKqMMAiYwrQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_cBiKH9yKEfGlKqMMAiYwrQ" tag="Author" value="ariel.chango@trial.hh09z79gjpqie8q.us.qlikcloud.com"/>
+  <taggedValue xmi:id="_cDZyUNyKEfGlKqMMAiYwrQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_cDZyUdyKEfGlKqMMAiYwrQ" tag="OutputType" value="xls"/>
+  <taggedValue xmi:id="_fgwC8NyKEfGlKqMMAiYwrQ" tag="OutputFileName" value="R_Analisis_INEC_NBI_8.1_canton_provincia"/>
+  <taggedValue xmi:id="_gao4UNyKEfGlKqMMAiYwrQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_glMigNyKEfGlKqMMAiYwrQ" tag="Purpose" value="R_Analisis_INEC_NBI_8.1_canton_provincia"/>
+  <taggedValue xmi:id="_glMigdyKEfGlKqMMAiYwrQ" tag="Description" value="Reporte de Analisis_INEC_NBI_8.1_canton_provincia"/>
+  <taggedValue xmi:id="_glNJkNyKEfGlKqMMAiYwrQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_glNwodyKEfGlKqMMAiYwrQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="_glNwotyKEfGlKqMMAiYwrQ" tag="REP_AUTHPASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_glNwo9yKEfGlKqMMAiYwrQ" tag="REP_CLIENTSECRET_CONTEXT" value="false"/>
+  <analysisMap xmi:id="_cBiKINyKEfGlKqMMAiYwrQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/Analisis_INEC_NBI_8_1_canton_provincia_0.1.ana#_Z6UrINoHEfGjVb1XdXSgUA"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_g7necNyKEfGlKqMMAiYwrQ" executionDate="2026-11-09T17:11:29.607-0500" executionDuration="272" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+  <context xmi:id="_glNwoNyKEfGlKqMMAiYwrQ" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.reports:TdReport>
